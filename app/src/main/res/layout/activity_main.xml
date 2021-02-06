@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0F0F10">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F10"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="1.5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btnVc"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnVc"
+            android:text="Voy a corregir"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnCn"
+            android:text="Correción"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnFsC"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnFsC"
+            android:text="🥳 Classroom"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnFsW"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnFsW"
+            android:text="🥳 WhatsApp"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnYc"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnYc"
+            android:text="Ya corregí"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="1.5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btnPr"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnPr"
+            android:text="Pago Rapido"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnMpf"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnMpf"
+            android:text="Mensaje Facebook"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnMpw"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#9CAE8B"
+            android:gravity="center"
+            android:hint="btnMpw"
+            android:text="Mensaje WhatsApp"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#70984B"
+        android:gravity="center"
+        android:text="RCP Bebés"
+        android:textAlignment="center"
+        android:textColor="#151715"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginVertical="2.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnA1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnA"
+            android:text="Arranca en una hora"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnWqh1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnWqh"
+            android:text="WhatsApp ¿Que hago ahora?"
+            android:textColor="#151715"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnUr1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnUr"
+            android:text="Union\n rápida"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnHe1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnHe"
+            android:text="Hoy es el encuentro"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCod1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:text="Código"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#70984B"
+        android:gravity="center"
+        android:text="Heimich Bebés"
+        android:textAlignment="center"
+        android:textColor="#151715"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginVertical="2.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnA2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnA"
+            android:text="Arranca en una hora"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnWqh2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnWqh"
+            android:text="WhatsApp ¿Que hago ahora?"
+            android:textColor="#151715"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnUr2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnUr"
+            android:text="Union\n rápida"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnHe2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnHe"
+            android:text="Hoy es el encuentro"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCod2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:text="Código"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#70984B"
+        android:gravity="center"
+        android:text="RCP Adultos"
+        android:textAlignment="center"
+        android:textColor="#151715"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginVertical="2.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnA3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnA"
+            android:text="Arranca en una hora"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnWqh3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnWqh"
+            android:text="WhatsApp ¿Que hago ahora?"
+            android:textColor="#151715"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnUr3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnUr"
+            android:text="Union\n rápida"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnHe3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnHe"
+            android:text="Hoy es el encuentro"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCod3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:text="Código"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titulo4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#70984B"
+        android:gravity="center"
+        android:text="Heimlich Adultos"
+        android:textAlignment="center"
+        android:textColor="#151715"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2.5dp"
+        android:layout_marginVertical="2.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnA4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnA"
+            android:text="Arranca en una hora"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnWqh4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnWqh"
+            android:text="WhatsApp ¿Que hago ahora?"
+            android:textColor="#151715"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnUr4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnUr"
+            android:text="Union\n rápida"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnHe4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:hint="btnHe"
+            android:text="Hoy es el encuentro"
+            android:textColor="#151715"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCod4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:background="#7BAA4F"
+            android:gravity="center"
+            android:text="Código"
+            android:textColor="#151715"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="0dp"
+        android:background="#899F75"
+        android:text="Inputs"
+        android:textColor="#151715"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/th1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" />
+    </ScrollView>
+
+
+</LinearLayout>
+
+</ScrollView>

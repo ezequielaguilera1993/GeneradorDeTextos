@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#10100F"
+
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <Button
+                android:id="@+id/btnRpi"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:background="#899F75"
+                android:gravity="center"
+                android:hint="btnRpi"
+                android:text="Respuesta Inscripcion"
+                android:textColor="#151715"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPf"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:background="#899F75"
+                android:gravity="center"
+                android:hint="btnPf"
+                android:text="Publicacion de Facebook"
+                android:textColor="#151715"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="RCP Bebés"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnN"
+
+                android:text="Novedades"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDgw1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnDgw"
+                android:text="Descripcion grupo de WhatsApp"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCqh1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnCqh"
+                android:text="Classroom ¿Que hago ahora?"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="Heimich Bebés"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnN"
+
+                android:text="Novedades"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDgw2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnDgw"
+                android:text="Descripcion grupo de WhatsApp"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCqh2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnCqh"
+                android:text="Classroom ¿Que hago ahora?"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="RCP Adultos"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnN"
+
+                android:text="Novedades"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDgw3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnDgw"
+                android:text="Descripcion grupo de WhatsApp"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCqh3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnCqh"
+                android:text="Classroom ¿Que hago ahora?"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo8"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="Heimlich Adultos"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnN"
+
+                android:text="Novedades"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDgw4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnDgw"
+                android:text="Descripcion grupo de WhatsApp"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCqh4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnCqh"
+                android:text="Classroom ¿Que hago ahora?"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/probar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginBottom="0dp"
+            android:background="#899F75"
+            android:gravity="center"
+            android:text="Inputs"
+            android:textColor="#151715"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginTop="1dp"
+            android:background="#899F75"
+            android:orientation="horizontal"
+            android:id="@+id/radioGrou">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rcp\n Bebés"
+                android:textAlignment="viewStart"
+                android:id="@+id/s1"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/s2"
+                android:text="Heimlich\n Bebés"
+                android:textAlignment="viewStart" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s3"
+                android:layout_weight="1"
+                android:text="Rcp\n Adultos"
+                android:textAlignment="viewStart" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s4"
+                android:layout_weight="1"
+                android:text="Heimlich\n Adultos"
+                android:textAlignment="viewStart" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tituloInputs"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_marginTop="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="RCP Bebés"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Planilla Certificado "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPc"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace a planilla de certificado"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Planilla Ratificación "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etRat"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace a planilla de ratificación"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Planilla Inscripcion "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPi"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace a planilla de inscripción"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Enlace Meet "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etMeet"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace para unirse al Meet"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="1.5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="0.2"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text="Día y hora"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etE"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="0.8"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Fecha y hora del encuentro(EN MINUSCULA)"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Día "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etD"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Dia del encuentro (EN MINUSCULA)"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="1.5dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="0.2"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text="Horario"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etH"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="0.8"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="a las aa hs"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Classroom "
+                android:textAlignment="gravity"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etC"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Classroom"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Cod. Class."
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etCc"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Codigo del classroom"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Enlace WhatsApp "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etW"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace al grupo de Whatsapp"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Enlace M.Pago "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etEnMp"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace a mercado pago"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Costo "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etCosto"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Costo del Certificado"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#899F75"
+                android:gravity="center"
+                android:text=" Publicacion original "
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPf"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="Enlace a la publicacion original"
+                android:textAlignment="center"
+                android:textColor="#151715"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/th1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
