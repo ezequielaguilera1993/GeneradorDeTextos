@@ -16,6 +16,10 @@ import kotlin.random.Random
 class MainActivity : AppCompatActivity() {
     //////////////////////
     /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
     ///wslttgpohhha sasd
     var selector = "1" //por defecto esta configurado en bebes
 
@@ -760,7 +764,7 @@ Enlace para sumarse por meet: $meet
             var nbtn =
                 resources.getResourceEntryName(btnCodigo.id)//recoje el nombre del boton de codigo (el id)
             var CClassroom = ""//codigo del classroom
-            var Encuentro=""//encuentro
+            var Encuentro = ""//encuentro
             when (nbtn) {
                 "btnCod1" -> {
                     contador = prefs.getInt(
@@ -774,32 +778,34 @@ Enlace para sumarse por meet: $meet
                     )//agrega al claveValor btnCod1234 un tanto PERO contador queda como estaba, SOLO SE ACTUALIZA SI SE TOCA EL BTN DE VUELTA!
 
                     CClassroom = "$cc1"
-                    Encuentro=espaciosPorGuiones(encuentro1!!)//lo que esta guardado en encuentor(lo que esta en etE) se rremplza espaciopor por guinoes y eso se iguala a "Encuentro"
+                    Encuentro =
+                        espaciosPorGuiones(encuentro1!!)//lo que esta guardado en encuentor(lo que esta en etE) se rremplza espaciopor por guinoes y eso se iguala a "Encuentro"
                 }
                 "btnCod2" -> {
                     contador = prefs.getInt(nbtn, 0)
                     editor.putInt(nbtn, contador + 1)
                     CClassroom = "$cc2"
-                    Encuentro=espaciosPorGuiones(encuentro2!!)
+                    Encuentro = espaciosPorGuiones(encuentro2!!)
                 }
                 "btnCod3" -> {
                     contador = prefs.getInt(nbtn, 0)
                     editor.putInt(nbtn, contador + 1)
                     CClassroom = "$cc3"
-                    Encuentro=espaciosPorGuiones(encuentro3!!)
+                    Encuentro = espaciosPorGuiones(encuentro3!!)
                 }
                 "btnCod4" -> {
                     contador = prefs.getInt(nbtn, 0)
                     editor.putInt(nbtn, contador + 1)
                     CClassroom = "$cc4"
-                    Encuentro=espaciosPorGuiones(encuentro4!!)
+                    Encuentro = espaciosPorGuiones(encuentro4!!)
                 }
 
             }
 
             editor.apply()//ACTUALIZA ACA el valor del btn
 
-            var codigo = "||"+"cc."+CClassroom + "||" +"e."+Encuentro+"||Id."+ num+"-"+ contador.toString()+num2+"||"//junta el codigo y el contador
+            var codigo =
+                "||" + "cc." + CClassroom + "||" + "e." + Encuentro + "||Id." + num + "-" + contador.toString() + num2 + "||"//junta el codigo y el contador
 
             th1.text = codigo//lo muestra en el th1
 
@@ -858,10 +864,9 @@ Enlace para sumarse por meet: $meet
         var s = 0
         for (x in ar) {
 
-            when(x)
-            {
-                " "-> ar[s] = "."
-                "/"-> ar[s] = "."
+            when (x) {
+                " " -> ar[s] = "."
+                "/" -> ar[s] = "."
 
             }
 
