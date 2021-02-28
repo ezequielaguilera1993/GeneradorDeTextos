@@ -486,7 +486,7 @@ costo*/
                     """Felicitaciones! Ya están cargadas sus respuestas y está en condiciones de realizar de manera gratuita los cursos que desee. Si además desea recibir una certificación dejo a su disposición la planilla de pago de los certificados $pc
 
 ENLACES PARA UNIRSE A LOS CURSOS (puede unirse a todos)
-
+https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
  CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
 • Enlace de unión al Classroom: $c1

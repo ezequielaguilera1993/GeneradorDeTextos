@@ -15,6 +15,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     //////////////////////
+    /**HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
     ///wslttgpohhha sasd
     var selector = "1" //por defecto esta configurado en bebes
 
@@ -358,8 +359,10 @@ class MainActivity : AppCompatActivity() {
             when (id.hint) {//botones fijos
                 "btnPr" -> th1.text = //var PagoRapido =
                     """${i("PagoRapido")}*Enlace de pago de los cursos* 
-•Rcp Bebés: $enMp1
-•Heimlich Bebés: $enMp2
+   • Rcp Bebés➤ $enMp1
+   • Heimlich Bebés➤ $enMp2
+   • Rcp Adultos➤ $enMp3
+   • Heimlich Adultos➤ $enMp4
 Se puede abonar con efectivo desde un Rapipago o Pago Fácil, también con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago
 
 *Recuerde completar esta planilla de pago luego de abonar*
