@@ -376,14 +376,11 @@ $f"""
 
                 "btnMpf" -> th1.text =  //var MensajePrivadoFacebook =
                     """${i("MensajePrivadoWhatsApp")}Información sobre las capacitaciónes en Primeros Auxilios
-
-CLASE VIRTUAL RCP EN BEBÉS: $em1
-CLASE VIRTUAL HEIMLICH EN BEBÉS: $em2
-Puede inscribirse a una sola capacitación o todas
-
 ¿COMO ME INSCRIBO?
 • Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
 (desde la misma planilla puede inscribirse a todos)
+
+Video que explica como inscribirse https://syr.us/u1A
 
 CERTIFICACIÓN
 • Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados (OPCIONALES) firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos.
@@ -397,19 +394,23 @@ IMPORTANTE
  • NO suman puntaje docente
  • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
-HERRAMIENTAS DE ENSEÑANZA 
+CONTENIDOS
  • Clase virtual en donde practicaremos las técnicas de manera intensiva
- • Grupo de WhatsApp para difusión directa de novedades
+ • Grupos de WhatsApp para difusión directa de novedades
  • Asistencia docente directamente por mensajes de WhatsApp, facilitando la comunicación
  • En el Classroom de su curso encontrará 
-      • Un video integrador
-      • Pdf con imágenes que se vieron durante la cursada
+      • Video introductorio a la fisiología humana (para entender bien los temas)
+      • Video con aspectos teoricos y prácticos de la técnica a aprender.
+      • Pdf con imágenes que se vieron durante la cursada.
       • Protocolos de las técnicas para imprimirlo y pegarlo en la heladera, cartera billetera etc.
       • Grabación del encuentro virtual (para l@s que no puedan asistir).
+      • Una actividad que deberá realizar para aprobar la cursada.
 
-CLASE VIRTUAL
-Rcp Bebés: $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
-Heimlich Bebés: $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+CLASES VIRTUALES (quedan grabadas para las personas que no puedan asistir)
+Rcp BEBÉS: $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Heimlich BEBÉS: $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Rcp ADULTOS: $eMm3 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Heimlich ADULTOS: $eMm4 (el enlace al Meet se comunicará en el grupo de WhatsApp)
 
 Para completar con éxito las capacitaciónes, además de asistir al encuentro deberá ver un video integrador y realizar actividades en un Classroom, imprescindibles para terminar de aprender los temas. Cada curso tiene un grupo de WhatsApp y un Classroom diferente
 
@@ -417,7 +418,7 @@ Para completar con éxito las capacitaciónes, además de asistir al encuentro d
 Más que nada deberá asistir a la charla virtual, ver un video y entregar una actividad, si entregan antes la actividad antes se entrega el certificado
 Un poco más detallado
 1) Asistir al encuentro (o en su defecto ver la grabación). 
-2) Acceder al Classroom y ver un video que integra y profundiza conceptos
+2) Acceder al Classroom y ver videos que profundizan conceptos
 3) Presentar una actividad. 
 4) Marcar la tarea como completada
 5) (opcional) Si abonaron el certificado les estará llegando por mail en menos de 24hs
@@ -436,14 +437,10 @@ $f"""
 
                 "btnMpw" -> th1.text = //var MensajePrivadoWhatsApp =
                     """${i("MensajePrivadoWhatsApp")}*Información sobre las capacitaciónes en Primeros Auxilios*
-
-*Clase virtual RCP en Bebés:* $em1
-*Clase virtual HEIMLICH en Bebés:* $em2
-*Puede inscribirse a todos los cursos si lo desea*
-
 *¿Cómo me inscribo?*
 • Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
 *(desde la misma planilla puede inscribirse a todos)*
+*Video que explica como inscribirse https://syr.us/u1A*
 
 *Certificación*
 • Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados *(OPCIONALES)* firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) *Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos*.
@@ -457,19 +454,23 @@ En esta planilla se le solicitarán datos para confeccionar los certificados, lo
  • NO suman puntaje docente
  • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
-HERRAMIENTAS DE ENSEÑANZA 
+*Contenidos*
  • Clase virtual en donde practicaremos las técnicas de manera intensiva
- • Grupo de WhatsApp para difusión directa de novedades
+ • Grupos de WhatsApp para difusión directa de novedades
  • Asistencia docente directamente por mensajes de WhatsApp, facilitando la comunicación
  • En el Classroom de su curso encontrará 
-      • Un video integrador
-      • Pdf con imágenes que se vieron durante la cursada
+      • Video introductorio a la fisiología humana (para entender bien los temas)
+      • Video con aspectos teoricos y prácticos de la técnica a aprender.
+      • Pdf con imágenes que se vieron durante la cursada.
       • Protocolos de las técnicas para imprimirlo y pegarlo en la heladera, cartera billetera etc.
       • Grabación del encuentro virtual (para l@s que no puedan asistir).
+      • Una actividad que deberá realizar para aprobar la cursada.
 
-*Clase virtual*
-Rcp Bebés: $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
-Heimlich Bebés: $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+*Clases virtuales (si no puede asistir podrá ver la grabación y continuar con el curso)*
+Rcp BEBÉS: $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Heimlich BEBÉS: $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Rcp ADULTOS: $eMm3 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+Heimlich ADULTOS: $eMm4 (el enlace al Meet se comunicará en el grupo de WhatsApp)
 
 Para completar con éxito las capacitaciónes, además de asistir al encuentro deberá ver un video integrador y realizar actividades en un Classroom, imprescindibles para terminar de aprender los temas. *Cada curso tiene un grupo de WhatsApp y un Classroom diferente*
 
@@ -497,7 +498,7 @@ $pf
 Te esperamos saludos! ❤
 $f"""
                 "btnVc" -> th1.text =
-                    """📝Estoy por corregir los video que entregaron. Recuerden marcar la actividad como completada para que me aparezca en el Classroom y los pueda corregir. (si están en la compu a veces no hace falta marcarla como completada)
+                    """📝Estoy por corregir los video que haya entregaron, lo hago todos los días de las dos semanas que dura el curso. Recuerden marcar la actividad como completada para que me aparezca en el Classroom y los pueda corregir. (si están en la compu a veces no hace falta marcarla como completada)
 *IMPORTANTE:* si los envían a mi WhatsApp (porque no les funciona subirlos al Classroom) deben realizar estos tres pasos extra
       • Enviar por mensaje de WhatsApp su nombre y apellido (tal cual como lo pusieron en el Classroom)
       • Enviar por mensaje de WhatsApp el curso para el cual suben los videos
@@ -516,8 +517,11 @@ Si tiene una ❌  quiere decir que hace falta enviar un vídeo corto con las cor
 • Técnica de Rcp: ❌✔
 • Atragantamiento leve: ❌✔ 
 • Atragantamiento grave: ❌✔ 
+
 Recordá marcar de vuelta la actividad como completada cuando envíes las correciones, independientemente si las subis al Classroom o las envias por WhatsApp
-Cualquier duda que surja comentame 
+
+Consejos:
+Si cuando estas haciendo algun video te surje alguna duda comentame
 $f"""
 
 
@@ -526,12 +530,13 @@ $f"""
 Espero que lo hayas disfrutado y que hayas aprendido mucho. Recordá que podes volver a participar las veces que quieras de forma gratuita para reforzar las técnicas. 
 
 *IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?*
-
-*• Si ya abonó el certificado*
-Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su *código único*➤ $rat
-Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente con calidad de impresión. (si perdiste el comprobante comentame no pasa nada)
 *¿Qué es el código único?*
 *Es un código único generado por cada participante, es personal intransferible y de un solo uso. Lo encontrará mas abajo y separado para facilitar su copiado y pegado*
+
+*• Si ya abonó el certificado*
+Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su *código único* y su *comprobante*➤ $rat
+Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente con calidad de impresión. (si perdiste el comprobante comentame no pasa nada)
+
 
 *• Sea el caso que NO haya abonado el certificado pero desea hacerlo en este momento*
 Si todavía NO abonó el certificado pero quiere abonarlo y solicitarlo en este momento debe seguir estos dos pasos
@@ -541,17 +546,18 @@ Si todavía NO abonó el certificado pero quiere abonarlo y solicitarlo en este 
 *El código único lo encontrará escrito debajo*
 $f"""
 
-                "btnFsC" -> th1.text =//var MensajeFelicitacionesWhatsApp =
+                "btnFsC" -> th1.text =//var MensajeFelicitacionesClassroom =
                     """${i("MensajePrivadoFacebookYAPASO")}Felicitaciones completaste el curso con éxito🥳
 Espero que lo hayas disfrutado y que hayas aprendido mucho. Recordá que podes volver a participar las veces que quieras de forma gratuita para reforzar las técnicas.  
 
 IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?
+¿Qué es el código único?
+Es un código único generado por cada participante, es personal intransferible y de un solo uso. Lo encontrará mas abajo y separado para facilitar su copiado y pegado
 
 • Si ya abonó el certificado
 Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su código único➤ $rat
 Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente con calidad de impresión. (si perdiste el comprobante comentame no pasa nada)
-¿Qué es el código único?
-Es un código único generado por cada participante, es personal intransferible y de un solo uso. Lo encontrará mas abajo y separado para facilitar su copiado y pegado
+
 
 • Sea el caso que NO haya abonado el certificado pero desea hacerlo en este momento
 Si todavía NO abonó el certificado pero quiere abonarlo y solicitarlo en este momento debe seguir estos dos pasos
@@ -564,7 +570,7 @@ $f"""
 
                 "btnYc" -> {
                     th1.text =
-                        """📑Terminé de corregir lo que enviaron y de mandar certificados a las personas que entregaron la actividad con éxito hace 24hs, mañana vuelvo a hacerlo (recuerden que tienen dos semanas para entregar todo). Si nos les llegó la corrección o el certificado avísenme asi lo solucionamos."""
+                        """📑Terminé de corregir lo que enviaron, mañana vuelvo a hacerlo (recuerden que tienen dos semanas para entregar todo). Si nos les llegó la corrección o el certificado avísenme asi lo solucionamos."""
 
 
                 }
@@ -573,16 +579,16 @@ $f"""
 //botones variables
                 ////////////Boton variable, y de uso frecuente////////////
                 "btnWqh" -> th1.text =
-                    """${i("")}*IMPORTANTE* Si no sabe como usar Classroom comenteme por privado asi lo resolvemos. Si son dudas privadas hágalas por privado también para no congestionar el grupo.
+                    """${i("")}*IMPORTANTE* Si no sabe como usar Classroom comenteme asi le envío un videotutorial
 *¿Que hacemos luego de inscribirnos, luego de ingresar al Classroom y unirnos a este grupo de WhatsApp?*
 Más que nada es *asistir a la charla del $d, ver un video y entregar una actividad, si entregan antes la actividad antes se entrega el certificado*
 
 *Un poco más detallado*
 *1)* Asistir al encuentro del *$em* (o en su defecto ver la grabación)  *conseguir un muñeco almohadon o frazada enrollada para practicar*. 
-*2)* Acceder al Classroom y ver un video que integra y profundiza conceptos (puede verlo antes)
+*2)* Acceder al Classroom y ver videos que integran y profundizan conceptos (puede verlos antes)
 *3)* Presentar una actividad. 
 *4)* Marcar la tarea como completada
-*5) (opcional)* Si abonaron el certificado les estará llegando por mail en menos de 24hs
+*5) (opcional)* Si abonaron el certificado les estará llegando firmado digitalmente y en calidad de impresión a su casilla de mail en menos de 24hs
 PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONAL. LO ABONAN SOLO LAS PERSONAS QUE LO PRECISAN.
 
 *De forma bien detallada*
@@ -595,7 +601,7 @@ El enlace para que se unan al encuentro por Meet lo voy a estar enviando por est
 *2)* Ver el Video Integrador, profundiza conceptos ya vistos (puede verlo antes de la charla)
 *3)* Realizar la actividad, que consiste en subir algunos videos de su autoría. Se los voy a corregir uno por uno.
 *4)* IMPORTANTE: cuando terminen las actividades deberán marcar la tarea como completada. Si no saben cómo hacerlo, fíjense en el Classroom donde dice ¿Como marco la actividad como completada? dejé un videíto tutorial donde se explica.
-*5) (Opcional)* Si abonan (o abonaron) el Certificado, le llegará a su casilla de mail en menos de 24hs. Esta es la planilla para abonar el certificado $pc . Este es el enlace de pago $enMp (también aparece en la planilla) 
+*5) (Opcional)* Si abonaron el certificado les estará llegando firmado digitalmente y en calidad de impresión a su casilla de mail en menos de 24hs. Esta es la planilla para abonar los certificado $pc .  
 
 *Dudas principales*
 *1)* ¿Cuánto cuesta el certificado? *(opcional, solo para las personas que lo requieran)* $costo$
@@ -619,16 +625,35 @@ Cualquier duda comentame.
 $f"""
 
                 "btnUr" -> th1.text = //var UnionRapida =
-                    """${i("UnionRapida")}📺Enlace al encuentro del $em: $meet
-*IMPORTANTE* recuerden conseguirse un muñeco, un peluche o almohada o frazada enrollada para practicar las técnicas.
+                    """${i("UnionRapida")}ENLACES PARA UNIRSE A LOS CURSOS (puede unirse a todos)
 
-*Classroom*
-$c
-En algunos celulares puede no funcionar, en ese caso toque "Unirse a clase" y pegue el código siguiente
-$cc
+ *CURSO RCP EN BEBÉS*
+• Enlace de unión al grupo de WhatsApp: $w1
+• Enlace de unión al Classroom: $c1
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc1
 
-*Grupo de WhatsApp* 
-$w
+ *CURSO MANIOBRA DE HEIMLICH EN BEBÉS*
+• Enlace de unión al grupo de WhatsApp: $w2
+• Enlace de unión al Classroom: $c2
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc2
+
+ *CURSO RCP EN ADULTOS*
+• Enlace de unión al grupo de WhatsApp: $w3
+• Enlace de unión al Classroom: $c3
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc3
+
+ *CURSO MANIOBRA HEIMLICH EN ADULTOS*
+• Enlace de unión al grupo de WhatsApp: $w4
+• Enlace de unión al Classroom: $c4
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc4
 $f"""
 
                 "btnHe" ->
@@ -639,8 +664,6 @@ Enlace para sumarse por meet $h: $meet
 Pueden descargarse el app de Google Meet si quieren, les dejo el enlace https://play.google.com/store/apps/details?id=com.google.android.apps.meetings *(NO ES NECESARIA ESTE APP PUEDEN ACCEDER DIRECTAMENTE DESDE EL NAVEGADOR)*
 
 *IMPORTANTE:* recuerden conseguirse un muñeco, un peluche, almohada o frazada enrollada para practicar. Les recomiendo prepararse para prender la cámara y mostrarse haciendo las técnicas, les va a facilitar mucho hacer la actividad ya que voy a poder indicar errores en vivo
-
-*Luego del encuentro y de ver el vídeo integrador en el Classroom pueden arrancar a hacer la actividad (también está en el Classroom)*
 
 *GRABACIÓN DEL ENCUENTRO*
 Va a estar el mismo Classroom hoy a la noche, a mas tardar mañana a la mañana

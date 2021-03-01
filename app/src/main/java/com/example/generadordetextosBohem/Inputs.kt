@@ -486,7 +486,8 @@ costo*/
                     """Felicitaciones! Ya están cargadas sus respuestas y está en condiciones de realizar de manera gratuita los cursos que desee. Si además desea recibir una certificación dejo a su disposición la planilla de pago de los certificados $pc
 
 ENLACES PARA UNIRSE A LOS CURSOS (puede unirse a todos)
-https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
+(SI CUANDO PULSA UNO SE CIERRA LA PAGINA NO SE HAGA PROBLEMA, EN CADA CLASSROOM Y WHATSAPP APARECEN DE VUELTA)
+
  CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
 • Enlace de unión al Classroom: $c1
@@ -494,30 +495,48 @@ https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/
 Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
 $cc1
 
- CURSO HEIMLICH EN BEBÉS
+ CURSO MANIOBRA DE HEIMLICH EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w2
 • Enlace de unión al Classroom: $c2
 (debe unirse a los dos)
 Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
 $cc2
+
+ CURSO RCP EN ADULTOS
+• Enlace de unión al grupo de WhatsApp: $w3
+• Enlace de unión al Classroom: $c3
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc3
+
+ CURSO MANIOBRA HEIMLICH EN ADULTOS
+• Enlace de unión al grupo de WhatsApp: $w4
+• Enlace de unión al Classroom: $c4
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc4
  $f"""
 
                 "btnPf" -> th1.text =//var Publicación Facebook =
 
                     """${i("Publicación en Facebook")}CAPACITACIONES GRATUITAS EN PRIMEROS AUXILIOS EN BEBÉS $eM 
 Modalidad virtual 🌎
-• Con Classroom y material extra.
-• Asistencia constante por mensajes de WhatsApp con el fin de facilitar la comunicación.
+• Con clase virtual, Classroom y material extra.
+• Asistencia constante por WhatsApp para facilitar la comunicación.
+• Entrega (opcional) de certificados.
 
-Hola soy Ezequiel, instructor en Primeros auxilios.
-Son muchos los casos de Atragantamientos (principalmente) y Paros Cardíacos en bebés. El hecho de recluirnos en cuarentena no disminuye esta estadística... sigue sucediendo todos los días.
-En respuesta a esta situación se dictaran 2 cursos
+Hola soy Ezequiel, instructor en Primeros Auxilios certificado en la UBA
+Son muchos los casos de Atragantamientos y Paros Cardíacos. El hecho de recluirnos en cuarentena no disminuye esta estadística... sigue sucediendo todos los días.
+En respuesta a esta situación se dictaran 4 cursos
  • RCP en Bebés (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Bebés (para asistir en caso de atragantamiento)
-Puede inscribirse a los dos de forma gratuita. 
+ • RCP en Adultos (para asistir en caso de paro cardíaco)
+ • Maniobra de Heimlich en Adultos (para asistir en caso de atragantamiento)
+Puede inscribirse a los cuatro cursos de forma gratuita. 
 
 ¿COMO ME INSCRIBO?
-• Complete la Planilla de Inscripción y elija cual curso quiere realizar(puede elegir ambos): $pi
+• Complete la Planilla de Inscripción y elija los cursos que desee realizar(puede elegir ambos): $pi
+
 
 CERTIFICACIÓN DE LOS CURSOS
 PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONAL. LO ABONAN SOLO LAS PERSONAS QUE LO PRECISAN.
@@ -527,7 +546,9 @@ Por cada curso habrá un certificado diferente. Es decir, si decide realizar los
 • Para recibirlo deberá completar esta Planilla de Pago de Certificado➤$pc
   En la planilla se le solicitarán datos para confeccionar el certificado, el comprobante de pago y una casilla de mail para que se lo envíe. En esta misma planilla enocntrará tambien estos enlaces de pago para abonar los certificados
    • Rcp Bebés➤ $enMp1
-   • Heimlich Bebés➤ $enMp1
+   • Maniobra de Heimlich Bebés➤ $enMp2
+   • Rcp Adultos➤ $enMp3
+   • Maniobra de Heimlich Adultos➤ $enMp4
 Se puede abonar con efectivo desde Rapipago o Pago Fácil, con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago.
 Puede abonar el certificado antes, durante o al finalizar la cursada.
 
@@ -536,18 +557,18 @@ IMPORTANTE
  • NO suman puntaje docente
  • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
-HERRAMIENTAS DE ENSEÑANZA 
+CONTENIDOS
  • Clase virtual en donde practicaremos las técnicas de manera intensiva
- • Grupo de WhatsApp para difusión directa de novedades
+ • Grupos de WhatsApp para difusión directa de novedades
  • Asistencia docente directamente por mensajes de WhatsApp, facilitando la comunicación
  • En el Classroom de su curso encontrará 
-      • Un video integrador
-      • Pdf con imágenes que se vieron durante la cursada
+      • Video introductorio a la fisiología humana (para entender bien los temas)
+      • Video con aspectos teoricos y prácticos de la técnica a aprender.
+      • Pdf con imágenes que se vieron durante la cursada.
       • Protocolos de las técnicas para imprimirlo y pegarlo en la heladera, cartera billetera etc.
       • Grabación del encuentro virtual (para l@s que no puedan asistir).
- 
-CLASE VIRTUAL
-• $eM (se comunicara el enlace de unión en el grupo de WhatsApp) 
+      • Una actividad que deberá realizar para aprobar la cursada.
+
 
 Te esperamos saludos! ❤
 $f"""
@@ -557,26 +578,57 @@ $f"""
                 "btnN" -> {
                     th1.text =
 
-                        """Todo el material está en la pestaña de "Trabajos" (si leen esto desde el celu) o "Trabajo en clase" (si están con una pc).
-Recuerden unirse al grupo de WhatsApp $w"""
+                        """Todo el material está en la pestaña de "Trabajo en clase"
+ENLACES PARA UNIRSE A TODOS LOS CURSOS (son los mismos enlaces que aparecen en la planilla de inscripción)
+CURSO RCP EN BEBÉS
+• Enlace de unión al grupo de WhatsApp: $w1
+• Enlace de unión al Classroom: $c1
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc1
+
+ CURSO MANIOBRA DE HEIMLICH EN BEBÉS
+• Enlace de unión al grupo de WhatsApp: $w2
+• Enlace de unión al Classroom: $c2
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc2
+
+ CURSO RCP EN ADULTOS
+• Enlace de unión al grupo de WhatsApp: $w3
+• Enlace de unión al Classroom: $c3
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc3
+
+ CURSO MANIOBRA HEIMLICH EN ADULTOS
+• Enlace de unión al grupo de WhatsApp: $w4
+• Enlace de unión al Classroom: $c4
+(debe unirse a los dos)
+Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+$cc4
+
+
+"""
 
                 }
                 "btnDgw" -> th1.text = //var DescripcionGrupoWhatsApp =
-                    """${i("Descripción GrupoWhatsApp")}Recuerde unirse al Classroom
+                    """${i("Descripción GrupoWhatsApp")}*Recuerde unirse al Classroom*
 $c
-Si no funciona toque "Unirse a clase" y pegue este código
-$cc
 
-Planilla de Pago (opcional, solo si desea el certificado)
+*Planilla de Pago (opcional, solo si desea el certificado)*
 $pc
 
-Enlace al encuentro del $em $meet
+*Enlace al encuentro del $em* $meet
 
 *¿Que hacemos luego de inscribirnos, ingresar al Classroom y sumarnos a este grupo de WhatsApp?*
    · Asistir a la charla del $d
-   · Ver un video
+   · Ver unos videos
    · Entregar una actividad
+   
+*Enlaces de unión a otros cursos https://syr.us/ydO*
 $f"""
+
 
                 "btnCqh" -> th1.text = //var queHagoAhora =
                     """En principio debe que asistir a la clase del $em. Si no pueden asistir deberán ver la grabación (estará en el Classroom). Mientras tanto recuerde unirse el grupo de WhatsApp $w
