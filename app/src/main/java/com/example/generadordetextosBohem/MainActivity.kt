@@ -380,7 +380,7 @@ $f"""
 • Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
 (desde la misma planilla puede inscribirse a todos)
 
-Video que explica como inscribirse https://syr.us/u1A
+Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view
 
 CERTIFICACIÓN
 • Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados (OPCIONALES) firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos.
@@ -440,7 +440,7 @@ $f"""
 *¿Cómo me inscribo?*
 • Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
 *(desde la misma planilla puede inscribirse a todos)*
-*Video que explica como inscribirse https://syr.us/u1A*
+*Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view*
 
 *Certificación*
 • Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados *(OPCIONALES)* firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) *Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos*.
@@ -452,6 +452,7 @@ En esta planilla se le solicitarán datos para confeccionar los certificados, lo
 *Importante*
  • Son certificados emitidos por una asociación civil
  • NO suman puntaje docente
+ • Poseen un código único de autenticidad
  • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
 *Contenidos*
@@ -467,10 +468,10 @@ En esta planilla se le solicitarán datos para confeccionar los certificados, lo
       • Una actividad que deberá realizar para aprobar la cursada.
 
 *Clases virtuales (si no puede asistir podrá ver la grabación y continuar con el curso)*
-Rcp BEBÉS: $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
-Heimlich BEBÉS: $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
-Rcp ADULTOS: $eMm3 (el enlace al Meet se comunicará en el grupo de WhatsApp)
-Heimlich ADULTOS: $eMm4 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+*Rcp BEBÉS:* $eMm1 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+*Heimlich BEBÉS:* $eMm2 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+*Rcp ADULTOS:* $eMm3 (el enlace al Meet se comunicará en el grupo de WhatsApp)
+*Heimlich ADULTOS:* $eMm4 (el enlace al Meet se comunicará en el grupo de WhatsApp)
 
 Para completar con éxito las capacitaciónes, además de asistir al encuentro deberá ver un video integrador y realizar actividades en un Classroom, imprescindibles para terminar de aprender los temas. *Cada curso tiene un grupo de WhatsApp y un Classroom diferente*
 

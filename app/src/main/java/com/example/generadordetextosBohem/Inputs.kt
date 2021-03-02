@@ -524,7 +524,7 @@ $cc4
 Modalidad virtual 🌎
 • Con clase virtual, Classroom y material extra.
 • Asistencia constante por WhatsApp para facilitar la comunicación.
-• Entrega (opcional) de certificados.
+• Entrega (opcional) de certificados, firmados digitalmente en calidad de impresiòn y con código de autenticidad.
 
 Hola soy Ezequiel, instructor en Primeros Auxilios certificado en la UBA
 Son muchos los casos de Atragantamientos y Paros Cardíacos. El hecho de recluirnos en cuarentena no disminuye esta estadística... sigue sucediendo todos los días.
@@ -537,7 +537,7 @@ Puede inscribirse a los cuatro cursos de forma gratuita.
 
 ¿COMO ME INSCRIBO?
 • Complete la Planilla de Inscripción y elija los cursos que desee realizar(puede inscribirse a todos): $pi
-Video que explica como inscribirse https://syr.us/u1A
+Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view
 
 CERTIFICACIÓN DE LOS CURSOS
 PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONAL. LO ABONAN SOLO LAS PERSONAS QUE LO PRECISAN.
@@ -556,6 +556,7 @@ Puede abonar el certificado antes, durante o al finalizar la cursada.
 IMPORTANTE
  • Son certificados emitidos por una asociación civil
  • NO suman puntaje docente
+ • Poseen un código único de autenticidad
  • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
 CONTENIDOS

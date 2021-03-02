@@ -328,7 +328,7 @@
             android:layout_weight="1"
             android:background="#7BAA4F"
             android:gravity="center"
-            android:text="Código"
+            android:text="Código (solo con --i--)"
             android:textColor="#151715"
             android:textSize="15sp" />
 
@@ -443,7 +443,7 @@
             android:layout_weight="1"
             android:background="#7BAA4F"
             android:gravity="center"
-            android:text="Código"
+            android:text="Código (solo con --i--)"
             android:textColor="#151715"
             android:textSize="15sp" />
 
@@ -558,7 +558,7 @@
             android:layout_weight="1"
             android:background="#7BAA4F"
             android:gravity="center"
-            android:text="Código"
+            android:text="Código (solo con --i--)"
             android:textColor="#151715"
             android:textSize="15sp" />
 
@@ -673,7 +673,7 @@
             android:layout_weight="1"
             android:background="#7BAA4F"
             android:gravity="center"
-            android:text="Código"
+            android:text="Código (solo con --i--)"
             android:textColor="#151715"
             android:textSize="15sp" />
 
