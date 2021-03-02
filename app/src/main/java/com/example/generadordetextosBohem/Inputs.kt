@@ -135,6 +135,7 @@ enMp
 costo*/
 
     //----//
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inputs)
@@ -519,7 +520,7 @@ $cc4
 
                 "btnPf" -> th1.text =//var Publicación Facebook =
 
-                    """${i("Publicación en Facebook")}CAPACITACIONES GRATUITAS EN PRIMEROS AUXILIOS EN BEBÉS $eM 
+                    """${i("Publicación en Facebook")}CAPACITACIONES GRATUITAS EN PRIMEROS AUXILIOS
 Modalidad virtual 🌎
 • Con clase virtual, Classroom y material extra.
 • Asistencia constante por WhatsApp para facilitar la comunicación.
@@ -579,6 +580,7 @@ $f"""
                     th1.text =
 
                         """Todo el material está en la pestaña de "Trabajo en clase"
+                            
 ENLACES PARA UNIRSE A TODOS LOS CURSOS (son los mismos enlaces que aparecen en la planilla de inscripción)
 CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
@@ -626,15 +628,13 @@ $pc
    · Ver unos videos
    · Entregar una actividad
    
-*Enlaces de unión a otros cursos https://syr.us/ydO*
+*Enlaces de unión a los cursos https://syr.us/ydO*
 $f"""
 
 
                 "btnCqh" -> th1.text = //var queHagoAhora =
                     """En principio debe que asistir a la clase del $em. Si no pueden asistir deberán ver la grabación (estará en el Classroom). Mientras tanto recuerde unirse el grupo de WhatsApp $w
-Luego debe ver los videos del Classroom (pueden verlo antes si les parece)
-Por último deberán realizar una actividad que consiste en subir al Classroom videos de su autoría. Voy a corregirlos uno por uno.
-Luego de que sean corregidos con éxito, si abonan (o abonaron) el certificado, les estará llegando por mail en menos de 24 hs. 
+Luego debe ver unos videos en este Classroom (pueden verlo antes si les parece), por último deberán realizar una actividad
 
 De forma más detallada sería así
 1) Asisto a la charla del $em, si no puedo, veo la grabación. 8hs después de la charla estará disponible la grabación en el Classroom
