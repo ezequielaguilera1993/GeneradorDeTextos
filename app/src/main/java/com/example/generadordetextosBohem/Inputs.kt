@@ -535,8 +535,8 @@ En respuesta a esta situación se dictaran 4 cursos
 Puede inscribirse a los cuatro cursos de forma gratuita. 
 
 ¿COMO ME INSCRIBO?
-• Complete la Planilla de Inscripción y elija los cursos que desee realizar(puede elegir ambos): $pi
-
+• Complete la Planilla de Inscripción y elija los cursos que desee realizar(puede inscribirse a todos): $pi
+Video que explica como inscribirse https://syr.us/u1A
 
 CERTIFICACIÓN DE LOS CURSOS
 PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONAL. LO ABONAN SOLO LAS PERSONAS QUE LO PRECISAN.
@@ -632,16 +632,16 @@ $f"""
 
                 "btnCqh" -> th1.text = //var queHagoAhora =
                     """En principio debe que asistir a la clase del $em. Si no pueden asistir deberán ver la grabación (estará en el Classroom). Mientras tanto recuerde unirse el grupo de WhatsApp $w
-Luego debe ver el Video Integrador (pueden verlo antes si les parece)
+Luego debe ver los videos del Classroom (pueden verlo antes si les parece)
 Por último deberán realizar una actividad que consiste en subir al Classroom videos de su autoría. Voy a corregirlos uno por uno.
 Luego de que sean corregidos con éxito, si abonan (o abonaron) el certificado, les estará llegando por mail en menos de 24 hs. 
 
 De forma más detallada sería así
 1) Asisto a la charla del $em, si no puedo, veo la grabación. 8hs después de la charla estará disponible la grabación en el Classroom
-2) Veo el video integrador.
+2) Veo unos videos en el Classroom que profundizan e integran temas.
 3) Completo la actividad (es subir algunos videos mostrando como hacen la técnica)
 4) Cuando termino de subirlos MARCO LA TAREA COMO COMPLETADA (abajo dejo un video para el que no sepa como hacerlo)
-5) En un plazo de 24hs le llegará su certificado firmado digitalmente a una casilla de correo (si abona o abonó el certificado) IMPORTANTE: el certificado puede abonarse en cualquier momento de la cursada. Luego de terminar se le pedirá que ratifique sus datos con una planilla similar a la que lleno al principio.
+5) En un plazo de 24hs le llegará su certificado firmado digitalmente a una casilla de correo (si abona o abonó el certificado) IMPORTANTE: el certificado puede abonarse en cualquier momento de la cursada. Luego de terminar podrá completar la planilla de solicitud.
 
 Cualquier duda comentame.
 Saludos 😀"""
