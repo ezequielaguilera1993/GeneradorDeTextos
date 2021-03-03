@@ -376,6 +376,7 @@ $f"""
 
                 "btnMpf" -> th1.text =  //var MensajePrivadoFacebook =
                     """${i("MensajePrivadoWhatsApp")}Información sobre las capacitaciónes en Primeros Auxilios
+                        
 ¿COMO ME INSCRIBO?
 • Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
 (desde la misma planilla puede inscribirse a todos)

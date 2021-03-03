@@ -484,38 +484,42 @@ costo*/
 
 ////////boton fijo por el miumento, pero de uso unico/////
                 "btnRpi" -> th1.text =//var RespuestaPlanillaDeInscripcion =
-                    """Felicitaciones! Ya están cargadas sus respuestas y está en condiciones de realizar de manera gratuita los cursos que desee. Si además desea recibir una certificación dejo a su disposición la planilla de pago de los certificados $pc
+                    """Felicitaciones! Ya están cargadas sus respuestas y está en condiciones de realizar los cursos.
 
 ENLACES PARA UNIRSE A LOS CURSOS (puede unirse a todos)
-(SI CUANDO PULSA UNO SE CIERRA LA PAGINA NO SE HAGA PROBLEMA, EN CADA CLASSROOM Y WHATSAPP APARECEN DE VUELTA)
+(Si cuando pulsa uno se cierra la pagina no se haga problema, en cada Classroom y Whatsapp aparecen de vuelta)
 
  CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
 • Enlace de unión al Classroom: $c1
-(debe unirse a los dos)
-Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
 $cc1
+• Día del encuentro virtual: $em1 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
 
  CURSO MANIOBRA DE HEIMLICH EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w2
 • Enlace de unión al Classroom: $c2
-(debe unirse a los dos)
-Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
 $cc2
+• Día del encuentro virtual: $em2 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
 
  CURSO RCP EN ADULTOS
 • Enlace de unión al grupo de WhatsApp: $w3
 • Enlace de unión al Classroom: $c3
-(debe unirse a los dos)
-Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
 $cc3
+• Día del encuentro virtual: $em3 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
 
  CURSO MANIOBRA HEIMLICH EN ADULTOS
 • Enlace de unión al grupo de WhatsApp: $w4
 • Enlace de unión al Classroom: $c4
-(debe unirse a los dos)
-Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
 $cc4
+• Día del encuentro virtual: $em4 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
  $f"""
 
                 "btnPf" -> th1.text =//var Publicación Facebook =
