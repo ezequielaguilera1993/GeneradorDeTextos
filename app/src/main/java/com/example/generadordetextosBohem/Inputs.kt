@@ -526,9 +526,9 @@ $cc4
 
                     """${i("Publicación en Facebook")}CAPACITACIONES GRATUITAS EN PRIMEROS AUXILIOS
 Modalidad virtual 🌎
-• Con clase virtual, Classroom y material extra.
+• Con clase virtual, Classroom, videos y material extra.
 • Asistencia constante por WhatsApp para facilitar la comunicación.
-• Entrega (opcional) de certificados, firmados digitalmente en calidad de impresiòn y con código de autenticidad.
+• Entrega (opcional) de certificados, firmados digitalmente en calidad de impresión y con código de autenticidad.
 
 Hola soy Ezequiel, instructor en Primeros Auxilios certificado en la UBA
 Son muchos los casos de Atragantamientos y Paros Cardíacos. El hecho de recluirnos en cuarentena no disminuye esta estadística... sigue sucediendo todos los días.
@@ -537,31 +537,11 @@ En respuesta a esta situación se dictaran 4 cursos
  • Maniobra de Heimlich en Bebés (para asistir en caso de atragantamiento)
  • RCP en Adultos (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Adultos (para asistir en caso de atragantamiento)
-Puede inscribirse a los cuatro cursos de forma gratuita. 
+Puede inscribirse a los cuatro cursos de forma gratuita. Las capacitaciones son gratuitas gracias al porcentaje de personas que abonan sus certificados y a donaciones recibidas.
 
 ¿COMO ME INSCRIBO?
-• Complete la Planilla de Inscripción y elija los cursos que desee realizar(puede inscribirse a todos): $pi
-Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view
+• Acceda a nuestra pagina web https://sites.google.com/view/bohemcapacitaciones/ , desplace la pagina hacia abajo y pulse en "Quiero inscribirme"
 
-CERTIFICACIÓN DE LOS CURSOS
-PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONAL. LO ABONAN SOLO LAS PERSONAS QUE LO PRECISAN.
-Por cada curso habrá un certificado diferente. Es decir, si decide realizar los dos cursos puede solicitar 2 certificados diferentes.
-• La capacitación es gratuita. Se entregarán certificados (OPCIONALES) firmados digitalmente abonando la suma de $costo$, con el fin de volverla redituable, sin dejar de capacitar a nadie. De esta manera podemos brindar conocimiento a cualquier persona con acceso a internet y también trabajar de esto. Tenga en cuenta que es exactamente el mismo curso abone o no el certificado, y que esta invitad@ a próximos encuentros con el fin de reforzar lo aprendido.
-• El certificado se entregará al finalizar la capacitación, luego de presentar las correspondientes actividades y aprobarlas.
-• Para recibirlo deberá completar esta Planilla de Pago de Certificado➤$pc
-  En la planilla se le solicitarán datos para confeccionar el certificado, el comprobante de pago y una casilla de mail para que se lo envíe. En esta misma planilla enocntrará tambien estos enlaces de pago para abonar los certificados
-   • Rcp Bebés➤ $enMp1
-   • Maniobra de Heimlich Bebés➤ $enMp2
-   • Rcp Adultos➤ $enMp3
-   • Maniobra de Heimlich Adultos➤ $enMp4
-Se puede abonar con efectivo desde Rapipago o Pago Fácil, con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago.
-Puede abonar el certificado antes, durante o al finalizar la cursada.
-
-IMPORTANTE
- • Son certificados emitidos por una asociación civil
- • NO suman puntaje docente
- • Poseen un código único de autenticidad
- • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
 
 CONTENIDOS
  • Clase virtual en donde practicaremos las técnicas de manera intensiva
@@ -574,6 +554,20 @@ CONTENIDOS
       • Protocolos de las técnicas para imprimirlo y pegarlo en la heladera, cartera billetera etc.
       • Grabación del encuentro virtual (para l@s que no puedan asistir).
       • Una actividad que deberá realizar para aprobar la cursada.
+      
+CERTIFICACIÓN DE LOS CURSOS
+NO es necesario abonar los certificados para realizar las capacitaciones, solo si desea recibirlos. De esta manera podemos trabajar de esto y además ofrecer a la comunidad cursos gratuitos.
+ • Son certificados emitidos por una asociación civil
+ • Poseen un código único de autenticidad
+ • NO suman puntaje docente
+ • Son enviados por mail con calidad de impresión en un plazo de 24hs luego de finalizar el curso. Recomendamos imprimirlo a color y en papel fotográfico
+
+COSTOS
+• Un (1) Certificado $costo1${'$'} $enMp1
+• Dos (2) Certificados $costo2${'$'} (${(costo2!!.toInt() / 2)} cada certificado) $enMp2
+• Tres (3) Certificados $costo3${'$'} (${(costo3!!.toInt() / 3)} cada certificado) $enMp3
+• Cuatro (4) Certificados $costo4${'$'} (${(costo4!!.toInt() / 4)} cada certificado) $enMp4
+En total puede abonar hasta 4 certificados (porque son 4 cursos). Si abona menos de 4 certificados, deberá elegir en qué cursos utilizar el comprobante. 
 
 
 Te esperamos saludos! ❤

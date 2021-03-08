@@ -363,10 +363,10 @@ class MainActivity : AppCompatActivity() {
             when (id.hint) {//botones fijos
                 "btnPr" -> th1.text = //var PagoRapido =
                     """${i("PagoRapido")}*Enlace de pago de los cursos* 
-   • Rcp Bebés➤ $enMp1
-   • Heimlich Bebés➤ $enMp2
-   • Rcp Adultos➤ $enMp3
-   • Heimlich Adultos➤ $enMp4
+• Un (1) Certificado $costo1$ $enMp1
+• Dos (2) Certificados $costo2$ (${(costo2!!.toInt()/2)} cada certificado) $enMp2
+• Tres (3) Certificados $costo3$ (${(costo3!!.toInt()/3)} cada certificado) $enMp3
+• Cuatro (4) Certificados $costo4$ (${(costo4!!.toInt()/4)} cada certificado) $enMp4
 Se puede abonar con efectivo desde un Rapipago o Pago Fácil, también con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago
 
 *Recuerde completar esta planilla de pago luego de abonar*
@@ -378,22 +378,7 @@ $f"""
                     """${i("MensajePrivadoWhatsApp")}Información sobre las capacitaciónes en Primeros Auxilios
                         
 ¿COMO ME INSCRIBO?
-• Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
-(desde la misma planilla puede inscribirse a todos)
-
-Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view
-
-CERTIFICACIÓN
-• Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados (OPCIONALES) firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos.
-Luego de finalizar las capacitaciónes que haya elegido (al aprobar las actividades), se hará entrega de los certificado en menos de 24hs. Se entrega un certificado diferente por cada curso
-Para recibirlos deberá completar esta Planilla de Pago de Certificado ➤$pc
-Puede solicitar los dos certificados desde esta misma planilla
-En esta planilla se le solicitarán datos para confeccionar los certificados, los comprobantes de pago y una casilla de mail para enviarlo. Puede llenarla para pedir el certificado en cualquier momento de la cursada, incluso luego de haberla finalizado. Este es el enlace de pago $enMp (también aparece en la planilla) 
-
-IMPORTANTE
- • Son certificados emitidos por una asociación civil
- • NO suman puntaje docente
- • Son enviados por mail con calidad de impresión. Recomendamos imprimirlo a color y en papel fotográfico
+• Acceda a nuestra pagina web https://sites.google.com/view/bohemcapacitaciones/ , desplace la pagina hacia abajo y pulse en "Quiero inscribirme"
 
 CONTENIDOS
  • Clase virtual en donde practicaremos las técnicas de manera intensiva
@@ -425,12 +410,11 @@ Un poco más detallado
 5) (opcional) Si abonaron el certificado les estará llegando por mail en menos de 24hs
 
 Dudas principales
-1) ¿Cuánto cuesta el certificado? (opcional) $costo$
-2) ¿Por qué se cobra el certificado? se cobra para hacer el curso redituable, sin dejar de capacitar a nadie.
-3) ¿Como abono el certificado? En esta planilla se le proporcionara un link de pago, se le solicitaran datos para confeccionar los certificados y una captura del comprobante de pago. $pc Desde esta misma planilla puede solicitar todos los certificados
-4) ¿Cómo comparto este curso con otra persona? puede enviarle este enlace a la Planilla de Ingreso $pi
-5) ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan antes las actividades, antes se entregará el certificado. Tendran una clase intensiva y dos semanas para estudiar un video integrador y realizar actividades.
-6) Encontrará más información y preguntas frecuentes en este documento https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
+1) ¿Por qué se cobran los certificados? se cobra para hacer el curso redituable, sin dejar de capacitar a nadie.
+2) ¿Como abono el certificado? En esta planilla se le proporcionara un link de pago, se le solicitaran datos para confeccionar los certificados y una captura del comprobante de pago. $pc Desde esta misma planilla puede solicitar todos los certificados
+3) ¿Cómo comparto este curso con otra persona? puede enviarle este enlace a la Planilla de Ingreso $pi
+4) ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan antes las actividades, antes se entregará el certificado. Tendran una clase intensiva y dos semanas para estudiar un video integrador y realizar actividades.
+5) Encontrará más información y preguntas frecuentes en este documento https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
 
 Te esperamos saludos! ❤
 $f"""
@@ -439,16 +423,13 @@ $f"""
                 "btnMpw" -> th1.text = //var MensajePrivadoWhatsApp =
                     """${i("MensajePrivadoWhatsApp")}*Información sobre las capacitaciónes en Primeros Auxilios*
 *¿Cómo me inscribo?*
-• Complete la Planilla de Inscripción y elija cuales cursos desea realizar: $pi
-*(desde la misma planilla puede inscribirse a todos)*
-*Video que explica como inscribirse https://drive.google.com/file/d/1c-FdHcZfKIjusf3X6JHWgUEY8HffSKyu/view*
+• Acceda a nuestra pagina web https://sites.google.com/view/bohemcapacitaciones/ y pulse en "Quiero inscribirme"
+
 
 *Certificación*
 • Si bien las capacitaciónes son totalmente gratuitas, se entregarán certificados *(OPCIONALES)* firmados digitalmente abonando la suma de $costo$ por cada curso realizado, con el fin de volverlas redituables, sin dejar a nadie sin capacitar (todos los certificados poseen el mismo costo) *Puede realizar las capacitaciónes sin abonarlos, es totalmente opcional. Solo lo abonan las personas que quieran recibirlos*.
 Luego de finalizar las capacitaciónes que haya elegido (al aprobar las actividades), se hará entrega de los certificado en menos de 24hs. Se entrega un certificado diferente por cada curso
-Para recibirlos deberá completar esta Planilla de Pago de Certificado ➤$pc
-*Puede solicitar los dos certificados desde esta misma planilla*
-En esta planilla se le solicitarán datos para confeccionar los certificados, los comprobantes de pago y una casilla de mail para enviarlo. Puede llenarla para pedir el certificado en cualquier momento de la cursada, incluso luego de haberla finalizado. Este es el enlace de pago $enMp (también aparece en la planilla) 
+Para recibirlos deberá completar esta Planilla de Pago de Certificados ➤$pc
 
 *Importante*
  • Son certificados emitidos por una asociación civil
@@ -487,12 +468,11 @@ Un poco más detallado
 *5)* (opcional)* Si abonaron el certificado les estará llegando por mail en menos de 24hs
 
 *Dudas principales*
-*1)* ¿Cuánto cuesta el certificado? (opcional) $costo$
-*2)* ¿Por qué se cobra el certificado? se cobra para hacer el curso redituable, sin dejar de capacitar a nadie.
-*3)* ¿Como abono el certificado? En esta planilla se le proporcionara un link de pago, se le solicitaran datos para confeccionar los certificados y una captura del comprobante de pago. $pc *Desde esta misma planilla puede solicitar todos los certificados*
-*4)* ¿Cómo comparto este curso con otra persona? puede enviarle este enlace a la Planilla de Ingreso $pi
-*5)* ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan antes las actividades, antes se entregará el certificado. Tendrán una clase intensiva y dos semanas para estudiar un video integrador y realizar actividades.
-*6)* Encontrará más información y preguntas frecuentes en este documento https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
+*1)* ¿Por qué se cobran los certificados? se cobra para hacer el curso redituable, sin dejar de capacitar a nadie.
+*2)* ¿Como abono el certificado? En esta planilla se le proporcionara un link de pago, se le solicitaran datos para confeccionar los certificados y una captura del comprobante de pago. $pc *Desde esta misma planilla puede solicitar todos los certificados*
+*3)* ¿Cómo comparto este curso con otra persona? puede enviarle este enlace a la Planilla de Ingreso $pi
+*4)* ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan antes las actividades, antes se entregará el certificado. Tendrán una clase intensiva y dos semanas para estudiar un video integrador y realizar actividades.
+*5)* Encontrará más información y preguntas frecuentes en este documento https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
 
 *PUBLICACION ORIGINAL*
 $pf
@@ -500,7 +480,7 @@ $pf
 Te esperamos saludos! ❤
 $f"""
                 "btnVc" -> th1.text =
-                    """📝Estoy por corregir los video que haya entregaron, lo hago todos los días de las dos semanas que dura el curso. Recuerden marcar la actividad como completada para que me aparezca en el Classroom y los pueda corregir. (si están en la compu a veces no hace falta marcarla como completada)
+                    """📝Estoy por corregir los video que hayan entregaron, lo hago todos los días de las dos semanas que dura el curso. Recuerden marcar la actividad como completada para que me aparezca en el Classroom y los pueda corregir. (si están en la compu a veces no hace falta marcarla como completada)
 *IMPORTANTE:* si los envían a mi WhatsApp (porque no les funciona subirlos al Classroom) deben realizar estos tres pasos extra
       • Enviar por mensaje de WhatsApp su nombre y apellido (tal cual como lo pusieron en el Classroom)
       • Enviar por mensaje de WhatsApp el curso para el cual suben los videos
@@ -600,25 +580,27 @@ $cc
 El enlace para que se unan al encuentro por Meet lo voy a estar enviando por este grupo de WhatsApp. Sea el caso que no puedas asistir a la charla podés ver la grabación (la voy a subir al Classroom). *Importante: buscar antes del encuentro del $d un muñeco, almohadón o frazada enrollada para practicar. El 95% del curso es práctica*
 
 *LUEGO del encuentro del $em, deberán acceder al Classroom y...*
-*2)* Ver el Video Integrador, profundiza conceptos ya vistos (puede verlo antes de la charla)
-*3)* Realizar la actividad, que consiste en subir algunos videos de su autoría. Se los voy a corregir uno por uno.
-*4)* IMPORTANTE: cuando terminen las actividades deberán marcar la tarea como completada. Si no saben cómo hacerlo, fíjense en el Classroom donde dice ¿Como marco la actividad como completada? dejé un videíto tutorial donde se explica.
-*5) (Opcional)* Si abonaron el certificado les estará llegando firmado digitalmente y en calidad de impresión a su casilla de mail en menos de 24hs. Esta es la planilla para abonar los certificado $pc .  
+*1)* Ver el Video Integrador, profundiza conceptos ya vistos (puede verlo antes de la charla)
+*2)* Realizar la actividad, que consiste en subir algunos videos de su autoría. Se los voy a corregir uno por uno.
+*3)* IMPORTANTE: cuando terminen las actividades deberán marcar la tarea como completada. Si no saben cómo hacerlo, fíjense en el Classroom donde dice ¿Como marco la actividad como completada? dejé un videíto tutorial donde se explica.
+*4) (Opcional)* Si abonaron el certificado les estará llegando firmado digitalmente y en calidad de impresión a su casilla de mail en menos de 24hs. Esta es la planilla para abonar los certificado $pc .  
 
 *Dudas principales*
-*1)* ¿Cuánto cuesta el certificado? *(opcional, solo para las personas que lo requieran)* $costo$
-*2)* ¿Por qué se cobra el certificado? se cobra para hacer el curso redituable, sin dejar a nadie sin capacitar.
-*3)* ¿Como abono el certificado? En esta planilla se le proporcionara un enlace de pago, se le solicitaran datos para confeccionar el certificado y una captura del comprobante de pago. $pc
-*4)* ¿Cómo ingreso al Classroom? Por este enlace $c
+*1)* ¿Por qué se cobra el certificado? se cobra para hacer el curso redituable, sin dejar a nadie sin capacitar.
+*2)* ¿Como abono el certificado? En esta planilla se le proporcionara un enlace de pago, se le solicitaran datos para confeccionar el certificado y una captura del comprobante de pago. $pc
+*3)* ¿Cómo ingreso al Classroom? Por este enlace $c
 En algunos celulares puede no funcionar, en ese caso toque "Unirse a clase" y pegue el código siguiente
 $cc
-
 *5)* ¿Cómo comparto este curso y los demás con otra persona? puede enviarle este enlace a la *Planilla de Ingreso* $pi
 *6)* ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan *antes* las actividades, *antes* se entregará el certificado.
 *7)* Encontrará más información https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
 
 *Página del Instituto Progreso Salud*
 https://www.facebook.com/institutoprogresosalud
+
+*Página web de Bohem Capacitaciones*
+https://sites.google.com/view/bohemcapacitaciones/
+
 
 *Página de la Publicación de Primeros Auxilios en Bebés*
 $pf
@@ -912,4 +894,10 @@ Enlace para sumarse por meet: $meet
         return (texto)
     }
 
+
+    fun String.dividir(dividendo:Int):String{
+        return ((this.toInt()/dividendo).toString())
+    }
+
 }
+

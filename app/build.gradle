@@ -9,7 +9,8 @@ android {
    kotlinOptions{jvmTarget="1.8"}
     defaultConfig {
         //con II es la segunda, sin nada es la primera!
-        applicationId "com.example.generadordetextosbebesII"
+        //III es la tercera!
+        applicationId "com.example.generadordetextosbebesIII"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1
