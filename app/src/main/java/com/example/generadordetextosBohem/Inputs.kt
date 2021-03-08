@@ -627,7 +627,7 @@ $pc
    · Ver unos videos
    · Entregar una actividad
    
-*Enlaces de unión a los cursos https://syr.us/ydO*
+*Enlaces a todos cursos https://syr.us/ydO*
 $f"""
 
 
