@@ -524,53 +524,28 @@ $cc4
 
                 "btnPf" -> th1.text =//var Publicación Facebook =
 
-                    """${i("Publicación en Facebook")}CAPACITACIONES GRATUITAS EN PRIMEROS AUXILIOS
-Modalidad virtual 🌎
-• Con clase virtual, Classroom, videos y material extra.
-• Asistencia constante por WhatsApp para facilitar la comunicación.
-• Entrega (opcional) de certificados, firmados digitalmente en calidad de impresión y con código de autenticidad.
+                    """${i("Publicación en Facebook")}Capacitaciones GRATUITAS en Primeros Auxilios que se mantienen gracias al pago OPCIONAL de certificados
+                        
+INSCRIPCIÓN GRATUITA
+• Acceda a este enlace https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
-Hola soy Ezequiel, instructor en Primeros Auxilios certificado en la UBA
-Son muchos los casos de Atragantamientos y Paros Cardíacos. El hecho de recluirnos en cuarentena no disminuye esta estadística... sigue sucediendo todos los días.
-En respuesta a esta situación se dictaran 4 cursos
+INSCRIPCIÓN CON CERTIFICADO
+• Debe abonar un precio mínimo por la cantidad de certificados que solicite
+
+PROMOCIÓN
+• Un (1) Certificado $costo1$ $enMp1
+• Dos (2) Certificados $costo2$ (${(costo2!!.toInt() / 2)} cada certificado) $enMp2
+• Tres (3) Certificados $costo3$ (${(costo3!!.toInt() / 3)} cada certificado) $enMp3
+• Cuatro (4) Certificados $costo4$ (${(costo4!!.toInt() / 4)} cada certificado) $enMp4
+En total puede abonar hasta 4 certificados (porque son 4 cursos). Si abona menos de 4 certificados, deberá elegir en qué cursos utilizar el comprobante. 
+
+CURSOS DICTADOS
  • RCP en Bebés (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Bebés (para asistir en caso de atragantamiento)
  • RCP en Adultos (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Adultos (para asistir en caso de atragantamiento)
-Puede inscribirse a los cuatro cursos de forma gratuita. Las capacitaciones son gratuitas gracias al porcentaje de personas que abonan sus certificados y a donaciones recibidas.
-
-¿COMO ME INSCRIBO?
-• Acceda a nuestra pagina web https://sites.google.com/view/bohemcapacitaciones/ , desplace la pagina hacia abajo y pulse en "Quiero inscribirme"
-
-
-CONTENIDOS
- • Clase virtual en donde practicaremos las técnicas de manera intensiva
- • Grupos de WhatsApp para difusión directa de novedades
- • Asistencia docente directamente por mensajes de WhatsApp, facilitando la comunicación
- • En el Classroom de su curso encontrará 
-      • Video introductorio a la fisiología humana (para entender bien los temas)
-      • Video con aspectos teoricos y prácticos de la técnica a aprender.
-      • Pdf con imágenes que se vieron durante la cursada.
-      • Protocolos de las técnicas para imprimirlo y pegarlo en la heladera, cartera billetera etc.
-      • Grabación del encuentro virtual (para l@s que no puedan asistir).
-      • Una actividad que deberá realizar para aprobar la cursada.
-      
-CERTIFICACIÓN DE LOS CURSOS
-NO es necesario abonar los certificados para realizar las capacitaciones, solo si desea recibirlos. De esta manera podemos trabajar de esto y además ofrecer a la comunidad cursos gratuitos.
- • Son certificados emitidos por una asociación civil
- • Poseen un código único de autenticidad
- • NO suman puntaje docente
- • Son enviados por mail con calidad de impresión en un plazo de 24hs luego de finalizar el curso. Recomendamos imprimirlo a color y en papel fotográfico
-
-COSTOS
-• Un (1) Certificado $costo1${'$'} $enMp1
-• Dos (2) Certificados $costo2${'$'} (${(costo2!!.toInt() / 2)} cada certificado) $enMp2
-• Tres (3) Certificados $costo3${'$'} (${(costo3!!.toInt() / 3)} cada certificado) $enMp3
-• Cuatro (4) Certificados $costo4${'$'} (${(costo4!!.toInt() / 4)} cada certificado) $enMp4
-En total puede abonar hasta 4 certificados (porque son 4 cursos). Si abona menos de 4 certificados, deberá elegir en qué cursos utilizar el comprobante. 
-
-
-Te esperamos saludos! ❤
+ 
+Te esperamos! ❤
 $f"""
 
 
