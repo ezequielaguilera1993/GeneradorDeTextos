@@ -525,7 +525,8 @@ $cc4
                 "btnPf" -> th1.text =//var Publicación Facebook =
 
                     """${i("Publicación en Facebook")}Capacitaciones GRATUITAS en Primeros Auxilios que se mantienen gracias al pago OPCIONAL de certificados
-                        
+Pàgina web: https://sites.google.com/view/bohemcapacitaciones   
+                     
 INSCRIPCIÓN GRATUITA
 • Acceda a este enlace https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
