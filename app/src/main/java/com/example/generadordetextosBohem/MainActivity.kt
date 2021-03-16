@@ -577,23 +577,13 @@ PUEDE REALIZAR LA CAPACITACIÓN SIN ABONAR EL CERTIFICADO, ES TOTALMENTE OPCIONA
 *1)* Esperar a la charla del *$em*. Este es el enlace al Classroom por si todavía no se unieron $c
 En algunos celulares puede no funcionar, en ese caso toque "Unirse a clase" y pegue el código siguiente
 $cc
-El enlace para que se unan al encuentro por Meet lo voy a estar enviando por este grupo de WhatsApp. Sea el caso que no puedas asistir a la charla podés ver la grabación (la voy a subir al Classroom). *Importante: buscar antes del encuentro del $d un muñeco, almohadón o frazada enrollada para practicar. El 95% del curso es práctica*
+*Enlace de union a la clase virtual* ${meet}. Sea el caso que no puedas asistir a la charla podés ver la grabación (la voy a subir al Classroom). *Importante: buscar antes del encuentro del $d un muñeco, almohadón o frazada enrollada para practicar. El 95% del curso es práctica*
 
 *LUEGO del encuentro del $em, deberán acceder al Classroom y...*
-*1)* Ver el Video Integrador, profundiza conceptos ya vistos (puede verlo antes de la charla)
-*2)* Realizar la actividad, que consiste en subir algunos videos de su autoría. Se los voy a corregir uno por uno.
-*3)* IMPORTANTE: cuando terminen las actividades deberán marcar la tarea como completada. Si no saben cómo hacerlo, fíjense en el Classroom donde dice ¿Como marco la actividad como completada? dejé un videíto tutorial donde se explica.
-*4) (Opcional)* Si abonaron el certificado les estará llegando firmado digitalmente y en calidad de impresión a su casilla de mail en menos de 24hs. Esta es la planilla para abonar los certificado $pc .  
-
-*Dudas principales*
-*1)* ¿Por qué se cobra el certificado? se cobra para hacer el curso redituable, sin dejar a nadie sin capacitar.
-*2)* ¿Como abono el certificado? En esta planilla se le proporcionara un enlace de pago, se le solicitaran datos para confeccionar el certificado y una captura del comprobante de pago. $pc
-*3)* ¿Cómo ingreso al Classroom? Por este enlace $c
-En algunos celulares puede no funcionar, en ese caso toque "Unirse a clase" y pegue el código siguiente
-$cc
-*5)* ¿Cómo comparto este curso y los demás con otra persona? puede enviarle este enlace a la *Planilla de Ingreso* $pi
-*6)* ¿Cuánto dura el curso? Dura 2 semanas, pero si entregan *antes* las actividades, *antes* se entregará el certificado.
-*7)* Encontrará más información https://docs.google.com/document/d/1B0zBFx6WdD97CwP8WXIpVt0fDRz5LDDJ69HzzrF8XK0/edit?usp=sharing . 
+*2)* Ver los video complementarios, que profundizan conceptos ya vistos (puede verlos antes de la charla)
+*3)* Realizar la actividad, que consiste en subir algunos videos de su autoría.
+*4)* IMPORTANTE: cuando terminen las actividades deberán marcar la tarea como completada. 
+*5) (Opcional)* Si abonaron el certificado les estará llegando firmado digitalmente, en calidad de impresión y con código de autenticidad a su casilla de mail en menos de 24hs.   
 
 *Página del Instituto Progreso Salud*
 https://www.facebook.com/institutoprogresosalud
@@ -602,7 +592,7 @@ https://www.facebook.com/institutoprogresosalud
 https://sites.google.com/view/bohemcapacitaciones/
 
 
-*Página de la Publicación de Primeros Auxilios en Bebés*
+*Publicacion de Facebook*
 $pf
 
 Cualquier duda comentame.
