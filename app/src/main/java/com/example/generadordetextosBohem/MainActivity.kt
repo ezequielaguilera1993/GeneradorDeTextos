@@ -369,8 +369,6 @@ class MainActivity : AppCompatActivity() {
 • Cuatro (4) Certificados $costo4$ (${(costo4!!.toInt()/4)} cada certificado) $enMp4
 Se puede abonar con efectivo desde un Rapipago o Pago Fácil, también con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago
 
-*Recuerde completar esta planilla de pago luego de abonar*
-$pc
 $f"""
 
 

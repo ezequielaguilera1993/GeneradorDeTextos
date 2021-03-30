@@ -556,7 +556,7 @@ $f"""
 
                         """Todo el material está en la pestaña de "Trabajo en clase"
                             
-ENLACES PARA UNIRSE A TODOS LOS CURSOS (son los mismos enlaces que aparecen en la planilla de inscripción)
+ENLACES PARA UNIRSE A TODOS LOS CURSOS
 CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
 • Enlace de unión al Classroom: $c1
