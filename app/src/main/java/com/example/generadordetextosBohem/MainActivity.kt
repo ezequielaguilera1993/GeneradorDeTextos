@@ -118,6 +118,24 @@ class MainActivity : AppCompatActivity() {
     var costo4: String? = null
     var h4: String? = null
 
+    /////////////////////adultos heimlich
+    var pf5: String? = null
+    var pi5: String? = null
+    var pc5: String? = null
+    var meet5: String? = null
+    var rat5: String? = null
+    var encuentro5: String? = null
+    var eM5: String? = null
+    var em5: String? = null
+    var eMm5: String? = null
+    var d5: String? = null
+    var c5: String? = null
+    var cc5: String? = null
+    var w5: String? = null
+    var enMp5: String? = null
+    var costo5: String? = null
+    var h5: String? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -160,10 +178,16 @@ class MainActivity : AppCompatActivity() {
         button(btnHe4)
         button(btnA4)
 
+        button(btnWqh5)
+        button(btnUr5)
+        button(btnHe5)
+        button(btnA5)
+
         btnCodigo(btnCod1)
         btnCodigo(btnCod2)
         btnCodigo(btnCod3)
         btnCodigo(btnCod4)
+        btnCodigo(btnCod5)
 
 
     }
@@ -187,6 +211,12 @@ class MainActivity : AppCompatActivity() {
             )
         }
         titulo4.text = "Heimlich Adultos " + prefs.getString("etE4", "NO CARGO")?.let {
+            empiezaMayuscula(
+                it
+            )
+        }
+
+        titulo5.text = "ACV/INFARTO " + prefs.getString("etE5", "NO CARGO")?.let {
             empiezaMayuscula(
                 it
             )
@@ -274,6 +304,27 @@ class MainActivity : AppCompatActivity() {
 //Encuentro arranca en Mayuscula y sigue en minuscula
         eMm4 = empiezaMayuscula(encuentro4.toString())
 
+        ///////////////////////////////////
+
+        pf5 = prefs.getString("etPf5", "")
+        enMp5 = prefs.getString("etEnMp5", "")
+        pi5 = prefs.getString("etPi5", "")
+        pc5 = prefs.getString("etPc5", "")
+        costo5 = prefs.getString("etCosto5", "")
+        encuentro5 = prefs.getString("etE5", "")
+        d5 = prefs.getString("etD5", "")
+        c5 = prefs.getString("etC5", "")
+        cc5 = prefs.getString("etCc5", "")
+        w5 = prefs.getString("etW5", "")
+        meet5 = prefs.getString("etMeet5", "")
+        rat5 = prefs.getString("etRat5", "")
+        h5 = prefs.getString("etH5", "")
+        eM5 = todoMayuscula(encuentro5.toString())
+//Encuentro en minuscula
+        em5 = todoMinuscula(encuentro5.toString())
+//Encuentro arranca en Mayuscula y sigue en minuscula
+        eMm5 = empiezaMayuscula(encuentro5.toString())
+
     }
 
     @SuppressLint("SetTextI18n")
@@ -338,6 +389,26 @@ class MainActivity : AppCompatActivity() {
                     costo = costo4
                     h = h4
                 }
+
+                "5" -> {
+                    pf = pf5
+                    pi = pi5
+                    pc = pc5
+                    meet = meet5
+                    rat = rat5
+                    encuentro = encuentro5
+                    eM = eM5
+                    em = em5
+                    eMm = eMm5
+                    d = d5
+                    c = c5
+                    cc = cc5
+                    w = w5
+                    enMp = enMp5
+                    costo = costo5
+                    h = h5
+                }
+
                 else -> { //esto es nada mas para incluir a los botones unicos que terminan en letra. Toman el valor de "1" por lo pronto
                     pf = pf1
                     pi = pi1
@@ -795,12 +866,19 @@ Enlace para sumarse por meet: $meet
                     Encuentro = espaciosPorGuiones(encuentro4!!)
                 }
 
+                "btnCod5" -> {
+                    contador = prefs.getInt(nbtn, 0)
+                    editor.putInt(nbtn, contador + 1)
+                    CClassroom = "$cc5"
+                    Encuentro = espaciosPorGuiones(encuentro5!!)
+                }
+
             }
 
             editor.apply()//ACTUALIZA ACA el valor del btn
 
             var codigo =
-                "||" + "cc." + CClassroom + "||" + "e." + Encuentro + "||Id." + num + "-" + contador.toString() + num2 + "||"//junta el codigo y el contador
+                "||e.$Encuentro||Id.$num-$contador.$CClassroom"//junta el codigo y el contador
 
             th1.text = codigo//lo muestra en el th1
 
@@ -839,10 +917,12 @@ Enlace para sumarse por meet: $meet
         var stringReturn = ""
         when (nbtn) {
             "btnCod1" -> stringReturn =
-                p1 + p2 //estos 4 generan un texto random de dos caracteres rb pp. hb pi. ra ip. ha ii
-            "btnCod2" -> stringReturn = p1 + i1
-            "btnCod3" -> stringReturn = i1 + p1
-            "btnCod4" -> stringReturn = i1 + i2
+                "A$p1$p2" //estos 4 generan un texto random de dos caracteres rb pp. hb pi. ra ip. ha ii
+            "btnCod2" -> stringReturn = "A$p1$i1"
+            "btnCod3" -> stringReturn = "A$i1$p1"
+            "btnCod4" -> stringReturn = "A$i1$i2"
+            "btnCod5" -> stringReturn = "B$p1$p2"
+
 
         }
 

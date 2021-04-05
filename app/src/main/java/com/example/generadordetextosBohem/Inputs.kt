@@ -116,6 +116,24 @@ class Inputs : AppCompatActivity() {
     var costo4: String? = null
     var h4: String? = null
 
+    ///////////////////// ACV/INFARTOS
+    var pf5: String? = null
+    var pi5: String? = null
+    var pc5: String? = null
+    var meet5: String? = null
+    var rat5: String? = null
+    var encuentro5: String? = null
+    var eM5: String? = null
+    var em5: String? = null
+    var eMm5: String? = null
+    var d5: String? = null
+    var c5: String? = null
+    var cc5: String? = null
+    var w5: String? = null
+    var enMp5: String? = null
+    var costo5: String? = null
+    var h5: String? = null
+
 
     /*f
 pf
@@ -326,6 +344,10 @@ costo*/
         button(btnN4)//novedades
         button(btnCqh4)//Classroom que hago ahora
 
+        button(btnDgw5)//Descripcion de whatsapp
+        button(btnN5)//novedades
+        button(btnCqh5)//Classroom que hago ahora
+
 
 //lo pongo bien abajo para que agarre los datos de todo el código para usarlos
         radioGrou.setOnCheckedChangeListener { group, checkedId ->
@@ -350,6 +372,11 @@ costo*/
 
                 }
 
+                R.id.s5 -> {
+                    selector = "5"
+
+                }
+
             }
             var paciente =
                 when (selector) {//dice si se marco bebe o adulto, para el textView es nada mas
@@ -357,6 +384,7 @@ costo*/
                     "2" -> "Heimlich Bebes "
                     "3" -> "Rcp Adultos "
                     "4" -> "Heimlich Adultos "
+                    "5" -> "ACV/INFARTOS "
                     else -> "NO ANDUVO"
                 }
 
@@ -452,6 +480,26 @@ costo*/
                     costo = costo4
                     h = h4
                 }
+
+                "5" -> {
+                    pf = pf5
+                    pi = pi5
+                    pc = pc5
+                    meet = meet5
+                    rat = rat5
+                    encuentro = encuentro5
+                    eM = eM5
+                    em = em5
+                    eMm = eMm5
+                    d = d5
+                    c = c5
+                    cc = cc5
+                    w = w5
+                    enMp = enMp5
+                    costo = costo5
+                    h = h5
+                }
+
                 else -> { //esto es nada mas para incluir a los botones unicos que terminan en letra. Toman el valor de "1" por lo pronto
                     pf = pf1
                     pi = pi1
@@ -473,6 +521,8 @@ costo*/
 
 
             }
+
+
 
 
 
@@ -520,6 +570,19 @@ Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego c
 $cc4
 • Día del encuentro virtual: $em4 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
 • Enlace al encuentro $meet
+
+ CURSO PRIMEROS AUXILIOS ANTE ACV/INFARTOS
+• Enlace de unión al grupo de WhatsApp: $w5
+• Enlace de unión al Classroom: $c5
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
+$cc5
+• Día del encuentro virtual: $em5 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
+
+
+
+
+
  $f"""
 
                 "btnPf" -> th1.text =//var Publicación Facebook =
@@ -528,23 +591,26 @@ $cc4
 Pàgina web: https://sites.google.com/view/bohemcapacitaciones   
                      
 INSCRIPCIÓN GRATUITA
-• Acceda a este enlace https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
+• Acceda a los enlaces públicos de unión https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
 INSCRIPCIÓN CON CERTIFICADO
-• Debe abonar un precio mínimo por la cantidad de certificados que solicite
+• Deberá abonar un precio mínimo dependiendo de la cantidad de certificados que solicite
+• Luego de abonar súmese a los cursos a través de los enlaces públicos de unión https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
 PROMOCIÓN
-• Un (1) Certificado $costo1$ $enMp1
-• Dos (2) Certificados $costo2$ (${(costo2!!.toInt() / 2)} cada certificado) $enMp2
-• Tres (3) Certificados $costo3$ (${(costo3!!.toInt() / 3)} cada certificado) $enMp3
-• Cuatro (4) Certificados $costo4$ (${(costo4!!.toInt() / 4)} cada certificado) $enMp4
-En total puede abonar hasta 4 certificados (porque son 4 cursos). Si abona menos de 4 certificados, deberá elegir en qué cursos utilizar el comprobante. 
+• Un (1) Certificado $costo1$ ›$enMp1
+• Dos (2) Certificados $costo2$ (${(costo2!!.toInt() / 2)} cada certificado) ›$enMp2
+• Tres (3) Certificados $costo3$ (${(costo3!!.toInt() / 3)} cada certificado) ›$enMp3
+• Cuatro (4) Certificados $costo4${'$'} (${(costo4!!.toInt() / 4)} cada certificado) ›$enMp4
+• Cinco (5) Certificados $costo5${'$'} (${(costo5!!.toInt() / 5)} cada certificado) ›$enMp5
+En total puede abonar hasta 5 certificados (porque son 5 cursos). Si abona menos de 5 certificados, deberá elegir en qué cursos utilizar el comprobante. 
 
 CURSOS DICTADOS
  • RCP en Bebés (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Bebés (para asistir en caso de atragantamiento)
  • RCP en Adultos (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Adultos (para asistir en caso de atragantamiento)
+ • Primeros Auxilios en caso de ACV/INFARTO (doble curso)
  
 Te esperamos! ❤
 $f"""
@@ -554,7 +620,7 @@ $f"""
                 "btnN" -> {
                     th1.text =
 
-                        """Todo el material está en la pestaña de "Trabajo en clase"
+                        """Todo el material del curso está en la pestaña de "Trabajo en clase"
                             
 ENLACES PARA UNIRSE A TODOS LOS CURSOS
 CURSO RCP EN BEBÉS
@@ -585,6 +651,13 @@ $cc3
 Sea el caso que no puede unirse toque "unirse a una clase", luego copie y pegue este código
 $cc4
 
+ CURSO PRIMEROS AUXILIOS ANTE ACV/INFARTOS
+• Enlace de unión al grupo de WhatsApp: $w5
+• Enlace de unión al Classroom: $c5
+Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
+$cc5
+• Día del encuentro virtual: $em5 (si no puede asistir tenga en cuenta que estará la grabación del encuentro a su disposición) 
+• Enlace al encuentro $meet
 
 """
 
@@ -593,14 +666,14 @@ $cc4
                     """${i("Descripción GrupoWhatsApp")}*Recuerde unirse al Classroom*
 $c
 
-*Planilla de Pago (opcional, solo si desea el certificado)*
-$pc
+*Enlace para abonar certificados*
+https://n9.cl/5y10
 
 *Enlace al encuentro del $em* $meet
 
 *¿Que hacemos luego de inscribirnos, ingresar al Classroom y sumarnos a este grupo de WhatsApp?*
    · Asistir a la charla del $d
-   · Ver unos videos
+   · Estudiar el material del Classroom
    · Entregar una actividad
    
 *Enlaces a todos cursos https://syr.us/ydO*
@@ -609,16 +682,18 @@ $f"""
 
                 "btnCqh" -> th1.text = //var queHagoAhora =
                     """En principio debe que asistir a la clase del $em. Si no pueden asistir deberán ver la grabación (estará en el Classroom). Mientras tanto recuerde unirse el grupo de WhatsApp $w
-Luego debe ver unos videos en este Classroom (pueden verlo antes si les parece), por último deberán realizar una actividad
+Luego debe estudiar el material en este Classroom, por último deberán realizar una actividad (si realizan la actividad en vivo solo tendrán que grabar un audio de 1 minuto para aprobar)
 
 De forma más detallada sería así
-1) Asisto a la charla del $em, si no puedo, veo la grabación. 8hs después de la charla estará disponible la grabación en el Classroom
-2) Veo unos videos en el Classroom que profundizan e integran temas.
-3) Completo la actividad (es subir algunos videos mostrando como hacen la técnica)
-4) Cuando termino de subirlos MARCO LA TAREA COMO COMPLETADA (abajo dejo un video para el que no sepa como hacerlo)
-5) En un plazo de 24hs le llegará su certificado firmado digitalmente a una casilla de correo (si abona o abonó el certificado) IMPORTANTE: el certificado puede abonarse en cualquier momento de la cursada. Luego de terminar podrá completar la planilla de solicitud.
+1) Asisto a la charla del $em, si no puedo, veo la grabación. 12hs después de la charla estará disponible en este mismo Classroom
+2) Estudio el material presentado en este Classroom. Tienen a su disposición los protocolos, imágenes y videos del encuentro y un video sobre fisiología humana básica (junto con un cupón para acceder de forma gratuita a un curso de fisiología humana)
+3) Completo la actividad. Si realizaron las prácticas en vivo, solo deberán grabar un audio de un minuto, sino, además de este audio deberán filmarse realizando las técnicas y luego subir los videos a este Classroom.
+4) Cuando termino de subir el material a la tarea MARCO LA TAREA COMO COMPLETADA (para que yo pueda ver la entrega y corregirlos)
+5) Si abona o abonó el certificado, le llegará firmado digitalmente, en calidad de impresión y con un código de autenticidad a su casilla de correo en un plazo de 24hs.
+     IMPORTANTE: el certificado puede abonarse en cualquier momento de la cursada, pero la promoción pre-inscripción dura hasta este lunes inclusive. Luego tendrá un extra de 100$, cualquiera sea la cantidad de certificados abonados.
 
-Cualquier duda comentame.
+
+Cualquier duda comentenme.
 Saludos 😀"""
 
 ///////////////////////////
@@ -748,6 +823,7 @@ Saludos 😀"""
                         "2" -> "Heimlich Bebes "
                         "3" -> "Rcp Adultos "
                         "4" -> "Heimlich Adultos "
+                        "5" -> "ACV/INFARTO "
                         else -> "NO ANDUVO"
                     }
                 tituloInputs.text = paciente + prefs.getString("etE$selector", "NO CARGO")?.let {
@@ -755,7 +831,7 @@ Saludos 😀"""
                         it
                     )
                 }
-            } //solo para ctualiar el textview mientras se actualiza el encuentro
+            } //solo para Actualiar el textview mientras se actualiza el encuentro
             when (etN + selector) {//dependiendo el selector+base cambia en tiempo real la variable a usar
 
                 //BEBES RCP!
@@ -844,6 +920,8 @@ Saludos 😀"""
                 "etEnMp3" -> enMp3 = v
                 "etH3" -> h3 = v
 
+
+
                 //////HEIMLICH RCP
                 "etPf4" -> pf4 = v
                 "etPi4" -> pi4 = v
@@ -871,6 +949,35 @@ Saludos 😀"""
                 "etCosto4" -> costo4 = v
                 "etEnMp4" -> enMp4 = v
                 "etH4" -> h4 = v
+
+
+                //////ACV/INFARTO
+                "etPf5" -> pf5 = v
+                "etPi5" -> pi5 = v
+                "etPc5" -> pc5 = v
+                "etMeet5" -> meet5 = v
+                "etRat5" -> rat5 = v
+
+                "etE5" -> {
+                    encuentro5 = v
+                    //Encuentro en mayuscula
+                    eM5 = todoMayuscula(encuentro5.toString())
+                    //Encuentro en minuscula
+                    em5 = todoMinuscula(encuentro5.toString())
+                    //Encuentro arranca en Mayuscula y sigue en minuscula
+                    eMm5 = empiezaMayuscula(encuentro5.toString())
+                    //actualiza las variables hijas
+                    //cuando haga el llamado por defecto le paso v a encuentro y abajo dejo esto para no ponerlo aca
+                    //porque es codifo de USO UNICO!!
+                }
+
+                "etD5" -> d5 = v
+                "etC5" -> c5 = v
+                "etCc5" -> cc5 = v
+                "etW5" -> w5 = v
+                "etCosto5" -> costo5 = v
+                "etEnMp5" -> enMp5 = v
+                "etH5" -> h5 = v
 
 
 
