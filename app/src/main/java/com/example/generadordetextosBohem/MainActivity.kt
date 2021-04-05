@@ -549,14 +549,17 @@ $pf
 Te esperamos saludos! ❤
 $f"""
                 "btnVc" -> th1.text =
-                    """📝Estoy por corregir los video que hayan entregaron, lo hago todos los días de las dos semanas que dura el curso. Recuerden marcar la actividad como completada para que me aparezca en el Classroom y los pueda corregir. (si están en la compu a veces no hace falta marcarla como completada)
-*IMPORTANTE:* si los envían a mi WhatsApp (porque no les funciona subirlos al Classroom) deben realizar estos tres pasos extra
+                    """*📝Estoy por corregir sus entregas*
+Salvo viernes y sábados corrijo todos días de las dos semanas que dura el curso. Recuerden marcar la actividad como completada para que me aparezca en el Classroom.
+                        
+*IMPORTANTE:* si envian los ejercicios a mi WhatsApp (porque no les carga cuando intentan subirlos al Classroom) deben realizar estos tres pasos extra
       • Enviar por mensaje de WhatsApp su nombre y apellido (tal cual como lo pusieron en el Classroom)
-      • Enviar por mensaje de WhatsApp el curso para el cual suben los videos
+      • Enviar por mensaje de WhatsApp el curso o cursos para los cuales entregan la actividadvideos
             *Ejemplo: "Ezequiel Aguilera. Heimlich bebés 12/02"*
       • Y por último marcar la actividad como completada en el Classroom *(asi no hayan subido nada se debe marcar igual)*
       
-Si no siguen estos pasos al enviar los videos por WhatsApp no voy a poder corregirlos porque sus mensajes se pierden entre mensaje de otras personas que preguntan para inscribirse al curso. Por lo tanto para corregirlos por WhatsApp veo quien marco la tarea como completada en el Classroom y luego los busco con la lupita de WhatsApp por nombre para encontrarlos
+*¿Por qué los pasos extras?*      
+En el Classroom me aparece su nombre, pero no tengo como relacionarlos con su teléfono para buscarlos por WhatsApp. Y muchas veces tengo WhatsApp saturado de personas que preguntan por el curso, u otros compañeros que envian la actividad. Si ponen el nombre apellido y el curso o cursos para los cuales entregan la actividad, yo cuando veo que entregaron en el Classrooom busco su nombre con la lupita de WhatsApp y los encuentro. Si no realizan estos pasos no los voy a poder encontrar, o se va a ser mas dificil.
 Cualquier duda comentenme"""
 
                 "btnCn" -> th1.text =  //var MensajeCorrecion =
@@ -579,43 +582,40 @@ $f"""
                 "btnFsW" -> th1.text =//var MensajeFelicitacionesWhatsApp =
                     """${i("MensajePrivadoFacebookYAPASO")}Felicitaciones completaste el curso con éxito🥳
 Espero que lo hayas disfrutado y que hayas aprendido mucho. Recordá que podes volver a participar las veces que quieras de forma gratuita para reforzar las técnicas. 
-
-*IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?*
-*¿Qué es el código único?*
+*¿Qué es el código de aprobación?*
 *Es un código único generado por cada participante, es personal intransferible y de un solo uso. Lo encontrará mas abajo y separado para facilitar su copiado y pegado*
 
+*IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?*
 *• Si ya abonó el certificado*
 Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su *código único* y su *comprobante*➤ $rat
-Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente con calidad de impresión. (si perdiste el comprobante comentame no pasa nada)
+Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente y en calidad de impresión. (si perdiste el comprobante comentame, no pasa nada)
 
-
-*• Sea el caso que NO haya abonado el certificado pero desea hacerlo en este momento*
-Si todavía NO abonó el certificado pero quiere abonarlo y solicitarlo en este momento debe seguir estos dos pasos
-    *1)* Completar la Planilla de Pago (provee enlaces de pago)➤ $pc (se puede abonar con efectivo por Rapipago o Pago Fácil, o con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago) 
+*• Sea el caso que NO haya abonado el certificado pero desee hacerlo en este momento*
+Si todavía NO abonó el certificado pero desea abonarlo y solicitarlo en este momento debe seguir estos dos pasos
+    *1)* Abonar sus certificados accediendo a este enlace➤ https://docs.google.com/document/d/1TkoF6YhIE0h2YsFbAMsFCLhrmf7SPDerEbVJYak62g0/edit?usp=sharing 
     *2)* Completar la Planilla de Solicitud de Certificado comunicando su código único➤ $rat
     
-*El código único lo encontrará escrito debajo*
+*El código único lo encontrará escrito debajo, para que pueda copiarlo y pegarlo con mayor facilidad*
 $f"""
 
                 "btnFsC" -> th1.text =//var MensajeFelicitacionesClassroom =
                     """${i("MensajePrivadoFacebookYAPASO")}Felicitaciones completaste el curso con éxito🥳
-Espero que lo hayas disfrutado y que hayas aprendido mucho. Recordá que podes volver a participar las veces que quieras de forma gratuita para reforzar las técnicas.  
-
-IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?
-¿Qué es el código único?
+Espero que lo hayas disfrutado y que hayas aprendido mucho. Recordá que podes volver a participar las veces que quieras de forma gratuita para reforzar las técnicas. 
+¿Qué es el código de aprobación?
 Es un código único generado por cada participante, es personal intransferible y de un solo uso. Lo encontrará mas abajo y separado para facilitar su copiado y pegado
 
+IMPORTANTE: ¿COMO SOLICITAR EL CERTIFICADO?
 • Si ya abonó el certificado
-Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su código único➤ $rat
-Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente con calidad de impresión. (si perdiste el comprobante comentame no pasa nada)
+Si ya abonó el certificado debe completar la planilla de Solicitud del Certificado comunicando su código único y su comprobante➤ $rat
+Luego de completarla, en menos de 24hs le estará llegando a su casilla de mail el certificado firmado digitalmente y en calidad de impresión. (si perdiste el comprobante comentame, no pasa nada)
 
-
-• Sea el caso que NO haya abonado el certificado pero desea hacerlo en este momento
-Si todavía NO abonó el certificado pero quiere abonarlo y solicitarlo en este momento debe seguir estos dos pasos
-    1) Completar la Planilla de Pago (provee enlaces de pago)➤ $pc (se puede abonar con efectivo por Rapipago o Pago Fácil, o con débito, crédito, transferencia bancaria o transferencia desde cuenta de mercado pago) 
+• Sea el caso que NO haya abonado el certificado pero desee hacerlo en este momento
+Si todavía NO abonó el certificado pero desea abonarlo y solicitarlo en este momento debe seguir estos dos pasos
+    1) Abonar sus certificados accediendo a este enlace➤ https://docs.google.com/document/d/1TkoF6YhIE0h2YsFbAMsFCLhrmf7SPDerEbVJYak62g0/edit?usp=sharing 
     2) Completar la Planilla de Solicitud de Certificado comunicando su código único➤ $rat
     
-El código único lo encontrará escrito debajo
+El código único lo encontrará escrito debajo, para que pueda copiarlo y pegarlo con mayor facilidad
+
 $f"""
 
 
@@ -878,7 +878,7 @@ Enlace para sumarse por meet: $meet
             editor.apply()//ACTUALIZA ACA el valor del btn
 
             var codigo =
-                "||e.$Encuentro||Id.$num-$contador.$CClassroom"//junta el codigo y el contador
+                "Id.$num-$contador.$CClassroom"//junta el codigo y el contador
 
             th1.text = codigo//lo muestra en el th1
 
