@@ -72,6 +72,92 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
+
+        <TextView
+            android:id="@+id/titulo9"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:layout_marginStart="1.5dp"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginEnd="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:background="#70984B"
+            android:gravity="center"
+            android:text="ACV/INFARTOS"
+            android:textAlignment="center"
+            android:textColor="#151715"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="2.5dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnN"
+
+                android:text="Novedades"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDgw5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="1.5dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnDgw"
+                android:text="Descripcion grupo de WhatsApp"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCqh5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#7BAA4F"
+                android:gravity="center"
+                android:hint="btnCqh"
+                android:text="Classroom ¿Que hago ahora?"
+                android:textColor="#151715"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+
+
+
         <TextView
             android:id="@+id/titulo5"
             android:layout_width="match_parent"
@@ -393,86 +479,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/titulo9"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            android:layout_marginHorizontal="2.5dp"
-            android:layout_marginStart="1.5dp"
-            android:layout_marginTop="1.5dp"
-            android:layout_marginEnd="1.5dp"
-            android:layout_marginBottom="1.5dp"
-            android:background="#70984B"
-            android:gravity="center"
-            android:text="ACV/INFARTOS"
-            android:textAlignment="center"
-            android:textColor="#151715"
-            android:textSize="25sp" />
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginHorizontal="2.5dp"
-            android:gravity="center"
-
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btnN5"
-                android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="1.5dp"
-                android:layout_weight="1"
-                android:background="#7BAA4F"
-                android:gravity="center"
-                android:hint="btnN"
-
-                android:text="Novedades"
-                android:textColor="#151715"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/btnDgw5"
-                android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="1.5dp"
-                android:layout_weight="1"
-                android:background="#7BAA4F"
-                android:gravity="center"
-                android:hint="btnDgw"
-                android:text="Descripcion grupo de WhatsApp"
-                android:textColor="#151715"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/btnCqh5"
-                android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="0dp"
-                android:layout_weight="1"
-                android:background="#7BAA4F"
-                android:gravity="center"
-                android:hint="btnCqh"
-                android:text="Classroom ¿Que hago ahora?"
-                android:textColor="#151715"
-                android:textSize="15sp" />
-
-        </LinearLayout>
 
         <TextView
             android:id="@+id/probar"
@@ -496,6 +503,15 @@
             android:background="#899F75"
             android:orientation="horizontal"
             android:id="@+id/radioGrou">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/s5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ACV\n INFARTOS"
+                android:textAlignment="viewStart"
+                android:textSize="12sp" />
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/s1"
@@ -530,15 +546,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Heimlich\n Adultos"
-                android:textAlignment="viewStart"
-                android:textSize="12sp" />
-
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/s5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ACV\n INFARTOS"
                 android:textAlignment="viewStart"
                 android:textSize="12sp" />
 
