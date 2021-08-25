@@ -26,7 +26,7 @@
         android:layout_weight="1"
         android:background="#9CFF8B"
         android:gravity="center"
-        android:text="--II--24.25/04"
+        android:text="--III--9.10.11/07"
         android:textAlignment="center"
         android:textColor="#151715"
         android:textSize="25sp" />

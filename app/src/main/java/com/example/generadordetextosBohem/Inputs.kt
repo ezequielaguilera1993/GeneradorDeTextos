@@ -586,29 +586,30 @@ $cc4
                 "btnPf" -> th1.text =//var Publicación Facebook =
 
                     """${i("Publicación en Facebook")}Capacitaciones GRATUITAS en Primeros Auxilios que se mantienen gracias al pago OPCIONAL de certificados
-Página web: https://sites.google.com/view/bohemcapacitaciones   
+Página web: https://sites.google.com/view/bohemcapacitaciones/inicio
                      
 INSCRIPCIÓN GRATUITA
 • Acceda a los enlaces públicos de unión https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
 INSCRIPCIÓN CON CERTIFICADO
 • Deberá abonar un precio mínimo dependiendo de la cantidad de certificados que solicite
+
+PROMOCIÓN POR PRE-INSCRIPCIÓN (válida hasta el viernes inclusive)
+• Un (1) Certificado $costo1${'$'} ›$enMp1
+• Dos (2) Certificados $costo2${'$'} (${(costo2!!.toInt() / 2)} cada certificado) ›$enMp2
+• Tres (3) Certificados $costo3${'$'} (${(costo3!!.toInt() / 3)} cada certificado) ›$enMp3
+• Cuatro (4) Certificados $costo4${'$'} (${(costo4!!.toInt() / 4)} cada certificado) ›$enMp4
+• Cinco (5) Certificados $costo5${'$'} (${(costo5!!.toInt() / 5)} cada certificado) ›$enMp5
+En total puede abonar hasta 5 certificados (porque son 5 cursos). Si abona menos de 5 certificados, deberá elegir en qué cursos utilizar el comprobante.  
 • Luego de abonar súmese a los cursos a través de los enlaces públicos de unión https://docs.google.com/document/d/1H8DsbU-qfeIijVni4zrfG_ND1ugv_gNHq2x8dvFyiQU/edit?usp=sharing
 
-PROMOCIÓN
-• Un (1) Certificado 500$ https://mpago.la/2pwTDcY
-• Dos (2) Certificados 600$ (300$ cada certificado) ➤ https://mpago.la/1noxX9Y
-• Tres (3) Certificados 680$ (226$ cada certificado) ➤ https://mpago.la/2RKS4fA
-• Cuatro (4) Certificados 720$ (180$ cada certificado) ➤ https://mpago.la/1eQvfze
-
-//esta debajo de esto la formula y eso//
-En total puede abonar hasta 4 certificados (porque son 4 cursos). Si abona menos de 4 certificados, deberá elegir en qué cursos utilizar el comprobante. 
-
 CURSOS DICTADOS
+ • Acv/Infartos 
  • RCP en Bebés (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Bebés (para asistir en caso de atragantamiento)
  • RCP en Adultos (para asistir en caso de paro cardíaco)
  • Maniobra de Heimlich en Adultos (para asistir en caso de atragantamiento)
+
 
  
 Te esperamos! ❤
@@ -639,7 +640,6 @@ CURSO PRIMEROS AUXILIOS ANTE ACV/INFARTOS
 Sea el caso que no pueda unirse al Classroom toque "unirse a una clase", luego copie y pegue este código
 $cc5
                             
-ENLACES PARA UNIRSE A TODOS LOS CURSOS
 CURSO RCP EN BEBÉS
 • Enlace de unión al grupo de WhatsApp: $w1
 • Enlace de unión al Classroom: $c1

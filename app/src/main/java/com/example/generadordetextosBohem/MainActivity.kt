@@ -229,6 +229,8 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
+
+
         pf1 = prefs.getString("etPf1", "")
         enMp1 = prefs.getString("etEnMp1", "")
         pi1 = prefs.getString("etPi1", "")
@@ -788,8 +790,8 @@ Enlace para sumarse por meet: $meet
             b = b + a
         }
         return (b)
-
     }
+
 
 
     fun empiezaMayuscula(t: String): String {
